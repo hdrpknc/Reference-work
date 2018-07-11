@@ -22,6 +22,8 @@ or externally from a Content Delivery Network (CDN).
 > Loading SAPUI5 from a CDN improves your app performance: You can load from a server that (in most cases) is much closer to your location, and you can benefit from the caching mechanism and the language fallback logic.  
 
 Check the available versions with the respective maintenance status at [https://ui5.sap.com/versionoverview.html](https://ui5.sap.com/versionoverview.html)  
+
+You can refer to a specific version by using a versioned URL as in the following example:  
 ```javascript
 <script id="sap-ui-bootstrap"
     type="text/javascript"
