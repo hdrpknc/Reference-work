@@ -67,3 +67,18 @@ Called when the view has been rendered and, therefore, its HTML is part of the d
 #### onBeforeRendering:
 Invoked before the controller view is re-rendered and not before the first rendering; use onInit() for invoking the hook before the first rendering.
 ### Custom Formatters
+Formatter.js
+```javascript
+sap.ui.define([], function() {
+	"use strict";
+	return {
+		formatDistance: function(sValue) {
+			if (sValue === null) {
+				return null;
+			} else if (sValue === undefined) {
+				return undefined;
+			} else {
+				return sValue.replace(".", ",");
+			}
+		},
+```
