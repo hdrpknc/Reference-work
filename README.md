@@ -82,3 +82,13 @@ sap.ui.define([], function() {
 			}
 		},
 ```
+```javascript
+	"Kartenintegration/utils/Formatter"
+], function(Controller, Map, Connection, Store, TTB, MP, MB, Formatter) {
+	"use strict";
+
+	return Controller.extend("Kartenintegration.controller.ViewMain", {
+
+		formatter: Formatter,
+		onInit: function() {
+```
