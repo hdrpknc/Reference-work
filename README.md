@@ -38,3 +38,19 @@ The specific version is here *1.42.6*
 The parameter is here `param1=amk`
 
 `var sValue = jQuery.sap.getUriParameters().get("param1");`
+### Using Native HTML in XML Views
+`<mvc:View controllerName="all-for-one.leaflet_testleafletjs_test.controller.ViewMain" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<html:div id="mapid"></html:div>
+					<Button text="Press Me. I am a SAPUI5 Button"/>
+					<html:button>No, press me. I am native HTML Button.</html:button>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
+`
