@@ -112,3 +112,4 @@ MainView.view.xml
 	<Text text="{path: 'distanz', formatter: '.formatter.formatDistance'}" wrapping="false"/>
 </table:template>
 ```
+### Asynchronous module definition (AMD)
