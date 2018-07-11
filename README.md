@@ -1,2 +1,68 @@
-# Reference-Work
-## Table of Contents
+Work of Reference 
+
+Work of Reference
+=================
+
+SAPUI5
+------
+
+### Finding installed UI5-Version
+
+You have two options for that
+
+*   find it out with the help of the client
+
+Open with the key 'F12' the Developer Tools -> Console -> and type in: `sap.ui.version`
+
+*   check the version on the system
+
+In SAP ABAP Stack-> Open the ABAP Application Server URL -> `http://[host]:[port]/sap/public/bc/ui5_ui5/` in your browser
+
+### How to find host and port
+
+*   host
+
+Choose System - > status -> Navigate to Other Kernel information & under system information tab you can find the host IP address.
+
+*   port
+
+Go to the Transaction **SMICM** -\> Choose from the menu "GOTO -> Services".
+
+### Variant for Bootstrapping from Content Delivery Network
+
+SAPUI5 can either be loaded locally with a relative path from a Web server or externally from a Content Delivery Network (CDN).
+
+> Loading SAPUI5 from a CDN improves your app performance: You can load from a server that (in most cases) is much closer to your location, and you can benefit from the caching mechanism and the language fallback logic.
+
+Check the available versions with the respective maintenance status at [https://ui5.sap.com/versionoverview.html](https://ui5.sap.com/versionoverview.html)
+
+You can refer to a specific version by using a versioned URL as in the following example:
+
+    	<script> id="sap-ui-bootstrap"
+    	    type="text/javascript"
+    	    src="https://sapui5.hana.ondemand.com/1.42.6/resources/sap-ui-core.js"
+    	    data-sap-ui-theme="sap_belize"
+    	    data-sap-ui-libs="sap.m">
+    	</script>
+
+### SAPUI5 get URL parameters
+
+`http://ciwarxh134.d01mar.warema.de:8034/sap/bc/ui5_ui5/sap/zui5_karte/index.html?sap-client=200&sap-ui-language=DE&sap-ui-appcache=false**&param1=amk**`
+
+    var sValue = jQuery.sap.getUriParameters().get("param1");
+
+### Using Native HTML in XML Views
+
+    <mvc:View controllerName="all-for-one.leaflet_testleafletjs_test.controller.ViewMain" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    	<App>
+    		<pages>
+    			<Page title="{i18n>title}">
+    				<content>
+    					<html:div id="mapid"></html:div>
+    					<Button text="Press Me. I am a SAPUI5 Button"/>
+    					<html:button>No, press me. I am native HTML Button.</html:button>
+    				</content>
+    			</Page>
+    		</pages>
+    	</App>
+    </mvc:View>
