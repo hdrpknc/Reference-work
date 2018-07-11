@@ -95,3 +95,12 @@ sap.ui.define([
 		formatter: Formatter,
 		onInit: function() {
 ```
+MainView.view.xml
+```xml
+								<table:Column width="9rem">
+									<Label text="Gesamtdistanz [km]"/>
+									<table:template>
+										<Text text="{path: 'distanz', formatter: '.formatter.formatDistance'}" wrapping="false"/>
+									</table:template>
+								</table:Column>
+```
