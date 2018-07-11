@@ -14,3 +14,5 @@ in your browser
 * host  
 Choose System - > status -> Navigate to Other Kernel information  
 & under system information tab you can find the host IP address.
+* port  
+Go to the Transaction `SMICM` -> Choose from the menu "GOTO -> Services".
