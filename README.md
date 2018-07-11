@@ -12,4 +12,5 @@ In SAP ABAP Stack-> Open the ABAP Application Server URL ->
 in your browser
 ### How to find host and port
 * host  
-Choose System - > status -> Navigate to Other Kernel information & under system information tab you can find the host IP address.
+Choose System - > status -> Navigate to Other Kernel information  
+& under system information tab you can find the host IP address.
