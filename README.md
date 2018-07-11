@@ -31,3 +31,4 @@ You can refer to a specific version by using a versioned URL as in the following
     data-sap-ui-theme="sap_belize"
     data-sap-ui-libs="sap.m"></script>
 ```
+The specific version is here *1.42.6*
