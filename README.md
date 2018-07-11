@@ -82,6 +82,7 @@ sap.ui.define([], function() {
 			}
 		},
 ```
+MainView.controller.js
 ```javascript
 sap.ui.define([
 	//other...
