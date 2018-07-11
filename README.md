@@ -113,3 +113,22 @@ MainView.view.xml
 </table:template>
 ```
 ### Asynchronous module definition (AMD)
+
+Not supported
+
+```javascript
+sap.ui.define([
+	"sap/ui/core/mvc/Controller",
+	"leaflet_testprojekt/libs/leaflet"
+], function(Controller) {
+	"use strict";
+
+	return Controller.extend("leaflet_testprojekt.controller.ViewMain", {
+		onAfterRendering: function() {
+			var map2 = document.getElementById("__xmlview0--mapid");
+			var mymap = L.map(map2).setView([51.505, -0.09], 13);
+		}
+	});
+});
+
+```
