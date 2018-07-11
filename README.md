@@ -1,5 +1,3 @@
-Work of Reference 
-
 Work of Reference
 =================
 
