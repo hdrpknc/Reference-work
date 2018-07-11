@@ -56,3 +56,8 @@ The parameter is here `param1=amk`
 	</App>
 </mvc:View>
 ```
+### Lifecycle hooks
+SAPUI5 provides the following lifecycle hooks:
+#### onInit:
+Called when a view is instantiated and its controls (if available) have already been created; used to modify the view before it is displayed to bind event handlers and do other one-time initialization.
+
