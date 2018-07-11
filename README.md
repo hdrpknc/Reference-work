@@ -40,7 +40,7 @@ The parameter is here `param1=amk`
 `var sValue = jQuery.sap.getUriParameters().get("param1");`
 ### Using Native HTML in XML Views
 ```xml
-<mvc:View controllerName="all-for-one.leaflet_testleafletjs_test.controller.ViewMain" 
+<mvc:View controllerName="hdrpknc.controller.ViewMain" 
 	xmlns:html="http://www.w3.org/1999/xhtml"
 	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
 	<App>
