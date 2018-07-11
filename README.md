@@ -21,4 +21,11 @@ SAPUI5 can either be loaded locally with a relative path from a Web server
 or externally from a Content Delivery Network (CDN).
 > Loading SAPUI5 from a CDN improves your app performance: You can load from a server that (in most cases) is much closer to your location, and you can benefit from the caching mechanism and the language fallback logic.  
 
-Check the available versions with the respective maintenance status at [https://ui5.sap.com/versionoverview.html](https://ui5.sap.com/versionoverview.html)
+Check the available versions with the respective maintenance status at [https://ui5.sap.com/versionoverview.html](https://ui5.sap.com/versionoverview.html)  
+```javascript
+<script id="sap-ui-bootstrap"
+    type="text/javascript"
+    src="https://sapui5.hana.ondemand.com/1.42.6/resources/sap-ui-core.js"
+    data-sap-ui-theme="sap_belize"
+    data-sap-ui-libs="sap.m"></script>
+```
