@@ -150,3 +150,27 @@ sap.ui.define([
 });
 
 ```
+### Load External CSS
+
+In manifest.json 
+
+```JSON
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				},
+				{
+					"uri": "css/leaflet.css"
+				},
+				{
+					"uri": "css/MarkerCluster.css"
+				},
+				{
+					"uri": "css/MarkerCluster.Default.css"
+				}
+			]
+		}
+	},
+	"sap.platform.abap": {
+```
