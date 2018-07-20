@@ -174,3 +174,33 @@ In manifest.json
 	},
 	"sap.platform.abap": {
 ```
+### jQuery Ajax
+
+```Javascript
+doCall: function(httpMethod, url, request, token) {
+			var response = {};
+			$.ajax({
+				type: httpMethod,
+				async: false,
+				url: url,
+				contentType: "application/json; charset=utf-8",
+				data: JSON.stringify(request),
+				headers: {
+					"Authorization": "Basic " + btoa("xtok:" + token),
+					"Content-Type": "application/json"
+				},
+				success: function(data, status, xhr) {
+					response.data = data;
+					response.status = status;
+					response.xhr = xhr;
+				},
+				error: function(xhr, status, error) {
+					response.xhr = xhr;
+					response.status = status;
+					response.error = error;
+				}
+			});
+			return response;
+		}
+
+```
