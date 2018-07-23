@@ -204,3 +204,8 @@ doCall: function(httpMethod, url, request, token) {
 		}
 
 ```
+### JS Duplicate Object
+
+```javascript
+var duplicateObject = JSON.parse(JSON.stringify(originalObject));
+```
