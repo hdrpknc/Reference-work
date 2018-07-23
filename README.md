@@ -238,15 +238,15 @@ var duplicateObject = JSON.parse(JSON.stringify(originalObject));
 
 ```html
 <script>
-		sap.ui.getCore().attachInit(function() {
+	sap.ui.getCore().attachInit(function() {
 			new sap.m.Shell({
 				app: new sap.ui.core.ComponentContainer({
 					height : "100%",
 					name : "Kartenintegration"
 				}),
-	appWidthLimited: false
+				appWidthLimited: false
 			}).placeAt("content");
-		});
-	</script>
+	});
+</script>
 ```
 appWidthLimited: false
