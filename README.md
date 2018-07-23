@@ -207,24 +207,24 @@ doCall: function(httpMethod, url, request, token) {
 ### oModel.read
 ```javascript
 var oFilter = new sap.ui.model.Filter("Tournummer", sap.ui.model.FilterOperator.EQ, sRoute);
-			var aFilters = [];
-			aFilters.push(oFilter);
+var aFilters = [];
+aFilters.push(oFilter);
 
 
-			var mParameters = {};
-			mParameters.urlParameters = {
-				"$expand": "StoppSet"
-			};
-			mParameters.filters = aFilters;
-			mParameters.success = function(oData, oResponse) {
-				console.log(oData);
-			};
-			mParameters.error = function(oError) {
-				console.log(oError);
-			};
+var mParameters = {};
+mParameters.urlParameters = {
+	"$expand": "StoppSet"
+};
+mParameters.filters = aFilters;
+mParameters.success = function(oData, oResponse) {
+	console.log(oData);
+};
+mParameters.error = function(oError) {
+	console.log(oError);
+};
 
-			var oModel = new sap.ui.model.odata.ODataModel(this.getServiceURL());
-			oModel.read("/TourSet", mParameters);
+var oModel = new sap.ui.model.odata.ODataModel(this.getServiceURL());
+oModel.read("/TourSet", mParameters);
 
 ```
 
