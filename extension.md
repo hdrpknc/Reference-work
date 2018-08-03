@@ -8,3 +8,8 @@
 - [ ] create OData project that redefines std. OData project 
 - [ ] register new service
 - [ ] create extension project 
+
+- [ ] create customizing - task
+- [ ] create z_catalog
+- [ ] create z_tile
+- [ ] 
