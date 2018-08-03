@@ -7,7 +7,7 @@
 - [ ] user has dev-accesskey on all d systems
 ____________________________________
 #### extend service
-- [ ] create OData project that redefines std. OData project 
+- [ ] create new segw-project that redefines std. OData project 
 - [ ] register new service
 #### extend app
 - [ ] create extension project in webide
