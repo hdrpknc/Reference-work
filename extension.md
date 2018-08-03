@@ -1,6 +1,6 @@
 
 ### to–dos 
-
+#### before the project starts
 - [ ] rfc connection between frontend and backend exists
 - [ ] my user exists on frontend and backend server and is the same user
 - [ ] my user exists in d and q and is the same
