@@ -13,7 +13,7 @@ ____________________________________
 - [ ] create extension project in webide
 __________________________________
 #### deploy and test extension
-- [ ] create customizing - task
+- [ ] create customizing-task on d frontend for launchpad designer
 - [ ] create z_catalog
 - [ ] create z_tile
 - [ ] create target-mapping for tile otherwise the tile opens nothing 
