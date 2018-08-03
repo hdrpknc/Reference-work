@@ -16,6 +16,8 @@ Choose System - > status -> Navigate to Other Kernel information
 & under system information tab you can find the host IP address.
 * port  
 Go to the Transaction `SMICM` -> Choose from the menu "GOTO -> Services".
+### Find Launchpad 
+`/n/ui2/flp`
 ### Variant for Bootstrapping from Content Delivery Network
 SAPUI5 can either be loaded locally with a relative path from a Web server  
 or externally from a Content Delivery Network (CDN).
