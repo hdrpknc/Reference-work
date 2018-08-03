@@ -16,5 +16,5 @@ __________________________________
 - [ ] create customizing - task
 - [ ] create z_catalog
 - [ ] create z_tile
-- [ ] create target-mapping otherwise the tile opens nothing 
+- [ ] create target-mapping for tile otherwise the tile opens nothing 
 
