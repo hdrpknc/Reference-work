@@ -12,4 +12,5 @@
 - [ ] create customizing - task
 - [ ] create z_catalog
 - [ ] create z_tile
-- [ ] asdf
+- [ ] create target-mapping otherwise the tile opens nothing 
+
