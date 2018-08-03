@@ -1,13 +1,14 @@
 
-### to–dos
+### to–dos 
 
 - [ ] rfc connection between frontend and backend exists
-- [ ] user is on both systems the same
-- [ ] user has dev-accesskey
-- [ ] user exists in d and q
+- [ ] my user exists on frontend and backend server and is the same user
+- [ ] my user exists in d and q and is the same
+- [ ] user has dev-accesskey on all d systems
+
 - [ ] create OData project that redefines std. OData project 
 - [ ] register new service
-- [ ] create extension project 
+- [ ] create extension project in webide
 
 - [ ] create customizing - task
 - [ ] create z_catalog
