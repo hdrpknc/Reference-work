@@ -22,4 +22,4 @@ __________________________________
 - [ ] create target-mapping for tile otherwise the tile opens nothing 
 > * Before SAP NetWeaver 7.50 for the configuration of target mappings you had to use transaction LPD_CUST in addition to the SAP Fiori launchpad designer. 
 > * As of SAP NetWeaver 7.50 /SAP UI Add-On 2.0 navigation targets for the application types SAPUI5 Fiori apps, transactions, Web Dynpro applications and URLs can be defined completely within the SAP Fiori launchpad designer without using transaction LPD_CUST. The general recommendation is to define navigation targets without using LPD_CUST.    
-https://help.sap.com/viewer/a7b390faab1140c087b8926571e942b7/7.52.0/en-US/33daedef95454af68903ef1238aa0373.html 
+> * [Configuring Target Mappings](https://help.sap.com/viewer/a7b390faab1140c087b8926571e942b7/7.52.0/en-US/33daedef95454af68903ef1238aa0373.html) 
