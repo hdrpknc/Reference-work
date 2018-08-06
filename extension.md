@@ -24,7 +24,7 @@ __________________________________
 > * As of SAP NetWeaver 7.50 /SAP UI Add-On 2.0 navigation targets for the application types SAPUI5 Fiori apps, transactions, Web Dynpro applications and URLs can be defined completely within the SAP Fiori launchpad designer without using transaction LPD_CUST. The general recommendation is to define navigation targets without using LPD_CUST.    
 > * [Configuring Target Mappings](https://help.sap.com/viewer/a7b390faab1140c087b8926571e942b7/7.52.0/en-US/33daedef95454af68903ef1238aa0373.html)     
 
-Title | URL (find out with SICF) | ID
+Title | URL (find it with SICF) | ID
 --- | --- | ---
 *Title of the SAPUI5 application* | `/sap/bc/ui5_ui5/sap/zcrm_opprtnty` | **cus.crm.opportunity.CRM_OPPRTNTYExtension**
 
