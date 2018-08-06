@@ -14,10 +14,10 @@ ____________________________________
 __________________________________
 #### deploy and test extension
 - [ ] create customizing-task on d frontend for launchpad designer    
-- [ ] create z_catalog: A Fiori catalog can include two components:
-
-* Tiles which represent the visual part of a tile such as a title, subtitle, information, icon and the semantic object and action for the intent-based navigation. (There is also an option with hardcoded urls, where you don't need target mappings)
-* Target mappings which define the target application which is launched when an intent (semantic object/action) is triggered.
+- [ ] create z_catalog: 
+> A Fiori catalog can include two components:
+> * Tiles which represent the visual part of a tile such as a title, subtitle, information, icon and the semantic object and action for the intent-based navigation. (There is also an option with hardcoded urls, where you don't need target mappings)
+> * Target mappings which define the target application which is launched when an intent (semantic object/action) is triggered.
 - [ ] create z_tile
 - [ ] create target-mapping for tile otherwise the tile opens nothing 
 >As of SAP NetWeaver 7.50 /SAP UI Add-On 2.0 navigation targets for the application types SAPUI5 Fiori apps, transactions, Web Dynpro applications and URLs can be defined completely within the SAP Fiori launchpad designer without using transaction LPD_CUST.
