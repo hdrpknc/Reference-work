@@ -13,6 +13,8 @@ ____________________________________
 - [ ] create extension project in webide
 __________________________________
 #### get the extended app into the launchpad
+- [ ] negotiate with the responsible person for the system about catalogs and roles and     
+how they should be defined to prevent anarchy. Or don't  :trollface:
 - [ ] create customizing-task on d frontend for launchpad designer    
 - [ ] create z_catalog: 
 > A Fiori catalog can include two components:
@@ -28,8 +30,6 @@ Title | URL (find it with SICF) | ID (in the Component.js)
 --- | --- | ---
 *Title of the SAPUI5 application* | `/sap/bc/ui5_ui5/sap/zcrm_opprtnty` | **cus.crm.opportunity.CRM_OPPRTNTYExtension**
 
-- [ ] negotiate with the responsible person for the system about catalogs and roles and     
-how they should be defined to prevent anarchy. Or don't  :trollface:
 - [ ] create z_role for your catalog
 _____________________________________
 #### deploy and test extension
