@@ -16,7 +16,7 @@ __________________________________
 - [ ] negotiate with the responsible person for the system about catalogs and roles and     
 how they should be defined to prevent anarchy. Or don't  :trollface:
 - [ ] create customizing-task on d frontend for launchpad designer    
-- [ ] create z_catalog: 
+- [ ] create z_catalog or use a catalog: 
 > A Fiori catalog can include two components:
 > * Tiles which represent the visual part of a tile such as a title, subtitle, information, icon and the semantic object and action for the intent-based navigation. (There is also an option with hardcoded urls, where you don't need target mappings)
 > * Target mappings which define the target application which is launched when an intent (semantic object/action) is triggered.
