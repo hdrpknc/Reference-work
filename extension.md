@@ -28,7 +28,8 @@ Title | URL (find it with SICF) | ID (in the Component.js)
 --- | --- | ---
 *Title of the SAPUI5 application* | `/sap/bc/ui5_ui5/sap/zcrm_opprtnty` | **cus.crm.opportunity.CRM_OPPRTNTYExtension**
 
-- [ ] negotiate with the responsible person for the system about catalogs and roles and how they should be defined to prevent anarchy :trollface:
+- [ ] negotiate with the responsible person for the system about catalogs and roles 
+> how they should be defined to prevent anarchy :trollface:
 - [ ] create z_role for your catalog
 _____________________________________
 #### deploy and test extension
