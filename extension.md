@@ -34,6 +34,6 @@ Title | URL (find it with SICF) | ID (in the Component.js)
 > 1. Give z_role to your user
 > 2. On tab menu: add your fiori catalog(and group) to the menu
 > 3. On tab authorization: give your role the authorization for your extended odata-service    
-      1. asdf
+      1. Fill out S_Service with the manual option
 _____________________________________
 #### deploy and test extension
