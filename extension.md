@@ -30,7 +30,7 @@ Title | URL (find it with SICF) | ID (in the Component.js)
 --- | --- | ---
 *Title of the SAPUI5 application* | `/sap/bc/ui5_ui5/sap/zcrm_opprtnty` | **cus.crm.opportunity.CRM_OPPRTNTYExtension**
 
-- [ ] create z_role for your catalog, group, service on frontend
+- [ ] create z_role for your catalog, group & service on frontend
 > 1. Give z_role to your user
 > 2. On tab menu add your fiori catalog(and group) to the menu
 > 3. On tab authorization give you role the authorization for your extended odata-service    
