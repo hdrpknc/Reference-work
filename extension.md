@@ -13,7 +13,7 @@ ____________________________________
 - [ ] create extension project in webide
 __________________________________
 #### get the extended app into the launchpad
-- [ ] negotiate with the responsible person for the system about catalogs and roles and     
+- [ ] negotiate with the responsible person for the system about catalogs, groups and roles and     
 how they should be defined to prevent anarchy. Or don't  :trollface:
 - [ ] create customizing-task on d frontend for launchpad designer    
 - [ ] create z_catalog or use a catalog: 
