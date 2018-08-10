@@ -32,5 +32,7 @@ Title | URL (find it with SICF) | ID (in the Component.js)
 
 - [ ] create z_role for your catalog, group, service on frontend
 > 1. Give z_role to your user
+> 2. On tab menu add your fiori catalog to the menu
+> 3. On tab authorization give you role the authorization for your extended odata-service
 _____________________________________
 #### deploy and test extension
