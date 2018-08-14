@@ -11,7 +11,8 @@ ____________________________________
 - [ ] register new service
 - [ ] get system alias to q also
 > * go to `/n/iwfnd/maint_service`
-> * choose your service -> click on customizing -> toggle out 'standardsystem' -> save 
+> * choose your service -> click on customizing -> toggle out 'standardsystem' -> save     
+>   toggle in 'standardsystem' -> save 
 #### extend app
 - [ ] create extension project in webide
 __________________________________
