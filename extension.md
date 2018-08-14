@@ -9,9 +9,9 @@ ____________________________________
 #### extend service
 - [ ] create new segw-project that redefines std. OData project 
 - [ ] register new service
-- [ ] get system alias to q 
+- [ ] get system alias to q also
 > * go to `/n/iwfnd/maint_service`
-> * asdf
+> * choose your service -> click on customizing -> toggle out 'standardsystem' -> save 
 #### extend app
 - [ ] create extension project in webide
 __________________________________
