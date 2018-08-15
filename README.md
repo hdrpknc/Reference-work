@@ -24,7 +24,8 @@ or
 | ta | info    |
 |----------------|---------------------------------------------|
 | /UI2/FLPD_CONF | Fiori Launchpad Designer (cross-client)     |
-| /UI2/FLPD_CUST | Fiori Launchpad Designer (client-specific)  |    
+| /UI2/FLPD_CUST | Fiori Launchpad Designer (client-specific)  |     
+
 `http://<host>.<domain>:<port>/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=<client>?scope=CUST`
 ### Variant for Bootstrapping from Content Delivery Network
 SAPUI5 can either be loaded locally with a relative path from a Web server  
