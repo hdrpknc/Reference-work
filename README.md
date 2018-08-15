@@ -21,6 +21,8 @@ Go to the Transaction `SMICM` -> Choose from the menu "GOTO -> Services".
 or    
 `http://<host>.<domain>:<port>/sap/bc/ui5_ui5/ui2/ushell/shells/abap/Fiorilaunchpad.html?sap-client=<client>`    
 ### Find Launchpad Designer
+| ta | info    |
+|----------------|---------------------------------------------|
 | /UI2/FLPD_CONF | Fiori Launchpad Designer (cross-client)     |
 | /UI2/FLPD_CUST | Fiori Launchpad Designer (client-specific)  |    
 `http://<host>.<domain>:<port>/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=<client>?scope=CUST`
