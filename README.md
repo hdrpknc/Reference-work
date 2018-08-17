@@ -28,20 +28,3 @@ or
 
 `http://<host>.<domain>:<port>/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=<client>&scope=CUST`
 `/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=100&sap-language=DE&scope=CONF`
-### Variant for Bootstrapping from Content Delivery Network
-SAPUI5 can either be loaded locally with a relative path from a Web server  
-or externally from a Content Delivery Network (CDN).
-> Loading SAPUI5 from a CDN improves your app performance: You can load from a server that (in most cases) is much closer to your location, and you can benefit from the caching mechanism and the language fallback logic.  
-
-Check the available versions with the respective maintenance status at [https://ui5.sap.com/versionoverview.html](https://ui5.sap.com/versionoverview.html)  
-
-You can refer to a specific version by using a versioned URL as in the following example:  
-```javascript
-<script id="sap-ui-bootstrap"
-    type="text/javascript"
-    src="https://sapui5.hana.ondemand.com/1.42.6/resources/sap-ui-core.js"
-    data-sap-ui-theme="sap_belize"
-    data-sap-ui-libs="sap.m"></script>
-```
-The specific version is here *1.42.6*
-
