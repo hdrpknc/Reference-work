@@ -1,3 +1,20 @@
+### Variant for Bootstrapping from Content Delivery Network
+SAPUI5 can either be loaded locally with a relative path from a Web server  
+or externally from a Content Delivery Network (CDN).
+> Loading SAPUI5 from a CDN improves your app performance: You can load from a server that (in most cases) is much closer to your location, and you can benefit from the caching mechanism and the language fallback logic.  
+
+Check the available versions with the respective maintenance status at [https://ui5.sap.com/versionoverview.html](https://ui5.sap.com/versionoverview.html)  
+
+You can refer to a specific version by using a versioned URL as in the following example:  
+```javascript
+<script id="sap-ui-bootstrap"
+    type="text/javascript"
+    src="https://sapui5.hana.ondemand.com/1.42.6/resources/sap-ui-core.js"
+    data-sap-ui-theme="sap_belize"
+    data-sap-ui-libs="sap.m"></script>
+```
+The specific version is here *1.42.6*
+
 ### SAPUI5 get URL parameters  
 `http://hdrpknc.de:8034/sap/bc/ui5_ui5/sap/zui5_karte/index.html?sap-client=200&sap-ui-language=DE&sap-ui-appcache=false&param1=amk`
 
