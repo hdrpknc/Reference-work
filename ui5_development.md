@@ -103,13 +103,6 @@ In manifest.json
 	"sap.platform.abap": {
 ```
 
-
-### JS Duplicate Object
-
-```javascript
-var duplicateObject = JSON.parse(JSON.stringify(originalObject));
-```
-
 ### Fullscreenmode with Index – File
 
 ```html
