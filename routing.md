@@ -12,4 +12,4 @@
 </mvc:View>
 ```
 - [ ] the splitApp needs an id 
-- [ ] the splitApp needs an id 
+- [ ] routing configuration
