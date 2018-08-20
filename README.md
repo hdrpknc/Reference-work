@@ -6,4 +6,4 @@
 
 
 
-[I'm a relative reference to a repository file](./extension.md)
+[fiori.md](./extension.md)
