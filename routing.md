@@ -25,3 +25,13 @@
 * viewPath = folder where views are located
 * controlId = our root element
 - [ ] create Masterview and Detailview in the view folder
+```javascript
+<mvc:View controllerName="a41smytickets.controller.ViewMaster" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+			<Page title="{i18n>title}">
+				<content>
+						<Label text="Master"/>
+				</content>
+			</Page>
+</mvc:View>
+```
