@@ -47,3 +47,7 @@ sap.ui.define([
 	});
 });
 ```
+- [ ] now add targets with the descriptor editor. 
+	1. View Name = Name of the view which shall be loaded
+	2. View Level = view level is relevant for transition from one page to another
+	3. Control Aggregation = choose which aggregation(master or detail) shall be triggered (e.g. masterPages or detailPages) 
