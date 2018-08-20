@@ -12,7 +12,7 @@
 </mvc:View>
 ```
 - [ ] the splitApp needs an id 
-- [ ] routing configuration
+- [ ] add routing configuration. use the descriptor editor to add changes quickly to manifest.json 
 ```JSON
 "sap.ui5": {
 ...
@@ -22,3 +22,5 @@
 	}
 }
 ```
+* viewPath = folder where views are located
+* controlId = our root element
