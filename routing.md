@@ -3,5 +3,4 @@
 
 #### sample with webide
 - [ ] start project from template
-- [ ] start project from template
-
+- [ ] name initial view e.g. App or ViewMain -> App.view.xml or ViewMain.view.xml
