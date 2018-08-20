@@ -15,6 +15,7 @@
 - [ ] routing configuration
 ```JSON
 "sap.ui5": {
+...
 	"config": {
 		"viewPath": "a41smytickets.view",
 		"controlId": "idAppControl"
