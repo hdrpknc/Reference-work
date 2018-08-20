@@ -35,3 +35,15 @@
 			</Page>
 </mvc:View>
 ```
+- [ ] create related controls
+```javascript
+sap.ui.define([
+	"sap/ui/core/mvc/Controller"
+], function(Controller) {
+	"use strict";
+
+	return Controller.extend("a41smytickets.controller.ViewMaster", {
+
+	});
+});
+```
