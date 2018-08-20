@@ -51,3 +51,8 @@ sap.ui.define([
 	1. View Name = Name of the view which shall be loaded
 	2. View Level = view level is relevant for transition from one page to another
 	3. Control Aggregation = choose which aggregation(master or detail) shall be triggered (e.g. `masterPages` or `detailPages`) 
+- [ ] add routes with the descriptor editor. the first matched route is used by the the router
+- [ ] the router need to be initialized in the init() method of Component.js 
+```javascript
+this.getRouter().initialize();
+```
