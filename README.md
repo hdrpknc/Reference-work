@@ -34,3 +34,6 @@ or
 * `/UI5/APP_INDEX_CALCULATE`
 * `/UI2/INVALIDATE_CLIENT_CACHES`
 * `/UI2/INVALIDATE_GLOBAL_CACHES`
+
+
+[I'm a relative reference to a repository file](./extension.md)
