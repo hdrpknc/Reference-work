@@ -119,3 +119,6 @@ In manifest.json
 </script>
 ```
 appWidthLimited: false
+### UI5 root elements
+* sap.m.app
+* sap.m.splitapp
