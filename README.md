@@ -6,4 +6,4 @@
 2. [Fiori extension](./extension.md)
 3. [UI5 tips in general](./ui5_development.md)
 4. [UI5 sample calls](./ui5-calls.md)
-5. [UI5 lifecycle hooks](./ui5-calls.md)
+5. [UI5 lifecycle hooks](./lifecycle-hooks.md)
