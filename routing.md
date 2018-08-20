@@ -24,3 +24,4 @@
 ```
 * viewPath = folder where views are located
 * controlId = our root element
+- [ ] create Masterview and Detailview in the view folder
