@@ -11,3 +11,4 @@
 	<SplitApp id="idAppControl"></SplitApp>
 </mvc:View>
 ```
+- [ ] the splitApp need an id 
