@@ -10,4 +10,4 @@
 6. [UI5 with custom formatters](./custom-formatters.md)
 
 ## ABAP
-1. [ABAP in general](./abap_tips.md)
+1. [ABAP tips](./abap_tips.md)
