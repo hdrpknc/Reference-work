@@ -13,4 +13,4 @@
 1. [ABAP tips](./abap_tips.md)
 
 # Gist
-[UI5 coding samples](https://gist.github.com/hdrpknc)
+[coding snippets](https://gist.github.com/hdrpknc)
