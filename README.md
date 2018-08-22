@@ -16,9 +16,7 @@
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
 ## Downtimes
-### WEBIDE
-
-22.08.2018 10:30-           
+### WEBIDE          
 
 | date | from | to |
 |------|------|----|
