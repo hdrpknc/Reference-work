@@ -24,5 +24,5 @@ date | from | to
 
 | date | from    | to                                          |
 |----------------|---------------------------------------------|
-*Still* | `renders` | **nicely**    
+|*Still* | `renders` | **nicely**    
 1 | 2 | 3    
