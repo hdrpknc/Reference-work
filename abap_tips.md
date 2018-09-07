@@ -10,3 +10,8 @@
 7. If it has a value not equal to 0, this means that you don't have authorization for this authority check and that you will be allowed to go on with the execution. If it is 0, F8 to go on until the next authority-check statement.
 8. When you reach an authority-check and execute it and sy-subrc has a  value not equal to 0, then you will have to update sy-subrc to 0 in order to be allowed to go on with the execution.
 9. F8 to go on. You will have to repeat previous steps in all authority-check statements reached where sy-subrc is valuated to non 0 value when it is executed
+
+
+
+### get Notes
+https://support.sap.com/en/my-support/knowledge-base.html
