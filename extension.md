@@ -45,5 +45,5 @@ _____________________________________
 _____________________________________
 
 ## additional information
-### Redefined Service - New Entityset methods are not generated
-#### Redefined Service - New Entityset methods are not generated
+### Redefined Service
+#### New Entityset methods are not generated
