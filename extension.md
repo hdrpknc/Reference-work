@@ -43,5 +43,5 @@ Title | URL (find it with SICF) | ID (in the Component.js)
 _____________________________________
 #### deploy and test extension
 _____________________________________
-_____________________________________
-### INFO
+
+## INFO
