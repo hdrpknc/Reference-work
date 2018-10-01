@@ -42,3 +42,6 @@ Title | URL (find it with SICF) | ID (in the Component.js)
       2. Choose your service as r3tr iwsg 
 _____________________________________
 #### deploy and test extension
+_____________________________________
+_____________________________________
+INFO:
