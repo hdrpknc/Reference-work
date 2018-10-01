@@ -50,3 +50,30 @@ _____________________________________
 > SEGW does unfortunately not create these methods if you add an entity set to a redefined service.
 > You have to implement the generic methods in your DPC_EXT class, check whether your newly created entity set is accessed.
 > If not you can call the method of the base class that will call the methods for the other entity sets of the redefined service.
+```
+method /IWBEP/IF_MGW_APPL_SRV_RUNTIME~GET_ENTITY.
+
+DATA lv_entityset_name TYPE string. 
+DATA lr_entity TYPE REF TO data.
+
+lv_entityset_name = 
+io_tech_request_context->get_entity_set_name( ).
+
+CASE lv_entityset_name. 
+
+   WHEN ‘<NewEntitySet>'. 
+
+   …
+
+   WHEN OTHERS.
+
+super->
+
+/iwbep/if_mgw_appl_srv_runtime~get_entity
+
+(    EXPORTING
+   …
+   
+   IMPORTING   er_entity = er_entity ).
+ENDCASE.
+```
