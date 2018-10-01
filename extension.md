@@ -44,4 +44,4 @@ _____________________________________
 #### deploy and test extension
 _____________________________________
 
-## INFO
+## additional information
