@@ -47,3 +47,6 @@ _____________________________________
 ## additional information
 ### Redefined Service
 #### New Entityset methods are not generated
+> SEGW does unfortunately not create these methods if you add an entity set to a redefined service.
+> You have to implement the generic methods in your DPC_EXT class, check whether your newly created entity set is accessed.
+> If not you can call the method of the base class that will call the methods for the other entity sets of the redefined service.
