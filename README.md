@@ -16,7 +16,7 @@
 
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
-## react
+## React
 [Sublime Text](./sublime.md)
 ## Downtimes
 ### WEBIDE          
