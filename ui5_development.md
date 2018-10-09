@@ -119,7 +119,7 @@ In manifest.json
 	});
 </script>
 ```
-appWidthLimited: false
+```appWidthLimited: false```
 #### with manifest.json
 ```json
 "sap.ui": {
