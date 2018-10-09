@@ -125,7 +125,8 @@ appWidthLimited: false
 "sap.ui": {
     "fullWidth": true
     ...
-}```
+}
+```
 ### UI5 root elements
 * sap.m.app
 * sap.m.splitapp
