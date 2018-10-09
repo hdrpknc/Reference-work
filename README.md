@@ -16,7 +16,7 @@
 
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
-## sublime text
+## Sublime Text
 ## Downtimes
 ### WEBIDE          
 
