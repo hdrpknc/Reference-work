@@ -120,11 +120,10 @@ In manifest.json
 </script>
 ```
 appWidthLimited: false
-#### manifest.json
-```javascript
+#### with manifest.json
+```json
 "sap.ui": {
-    "fullWidth": true
-    ...
+    "fullWidth": true,
 }
 ```
 ### UI5 root elements
