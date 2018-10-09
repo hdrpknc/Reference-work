@@ -103,7 +103,8 @@ In manifest.json
 	"sap.platform.abap": {
 ```
 
-### Fullscreenmode with Index – File
+### Fullscreenmode 
+#### with Index – File
 
 ```html
 <script>
@@ -119,6 +120,12 @@ In manifest.json
 </script>
 ```
 appWidthLimited: false
+#### manifest.json
+```javascript
+"sap.ui": {
+    "fullWidth": true
+    ...
+}```
 ### UI5 root elements
 * sap.m.app
 * sap.m.splitapp
