@@ -33,3 +33,10 @@ MainView.view.xml
 	<Text text="{path: 'distanz', formatter: '.formatter.formatDistance'}" wrapping="false"/>
 </table:template>
 ```
+### Custom Formatters without view templates
+
+```javascript
+firstStatus: new sap.m.ObjectStatus({
+ text: "Prio: {Priority}",
+ state: {path: 'Priority', formatter: function(prio){return "Warning";}}
+}),```javascript
