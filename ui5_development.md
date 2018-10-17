@@ -103,6 +103,23 @@ In manifest.json
 	"sap.platform.abap": {
 ```
 
+```JSON
+    "sap.ui5": {
+        "_version": "1.1.0",
+        "resources": {
+            "js": [
+                {
+                    "uri": "<uri>"
+                }
+            ],
+            "css": [
+                {
+                    "uri": "<uri>",
+                    "id": "<id>"
+                }
+            ]
+```
+
 ### Fullscreenmode 
 #### with Index – File
 
