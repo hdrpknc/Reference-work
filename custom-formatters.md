@@ -39,4 +39,5 @@ MainView.view.xml
 firstStatus: new sap.m.ObjectStatus({
  text: "Prio: {Priority}",
  state: {path: 'Priority', formatter: function(prio){return "Warning";}}
-}),```javascript
+}),
+```
