@@ -36,8 +36,21 @@ MainView.view.xml
 ### Custom Formatters without view templates
 
 ```javascript
-firstStatus: new sap.m.ObjectStatus({
- text: "Prio: {Priority}",
- state: {path: 'Priority', formatter: function(prio){return "Warning";}}
-}),
+template = new sap.m.ObjectListItem({
+					type: "Active",
+					title: "{Description}",
+					number: "{TicketId}",
+					/*			numberUnit: "Prio: {Priority}",*/
+					attributes: new sap.m.ObjectAttribute({
+						text: "{Reporter}"
+					}),
+					firstStatus: new sap.m.ObjectStatus({
+						text: "Prio: {Priority}",
+						state: {
+							path: 'Priority',
+							formatter: function(prio) {
+								return "Warning";
+							}
+						}
+					}),
 ```
