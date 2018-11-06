@@ -19,3 +19,105 @@
 3. copy note number and download sap note with ta `snote`
 4. implement note
 5. transport to testsystem
+
+### link from abap with sso
+
+```ABAP
+* single sign-on
+  constants lc_icf_url type string value '/sap/public/myssocntl'. "#EC SYNTCHAR
+  data lv_sso_active   type abap_bool.
+  call method cl_icf_tree=>if_icf_tree~service_from_url
+    exporting
+      url                   = lc_icf_url
+      hostnumber            = 0
+      authority_check       = abap_false
+    importing
+      icfactive             = lv_sso_active
+    exceptions
+      wrong_application     = 1
+      no_application        = 2
+      not_allow_application = 3
+      wrong_url             = 4
+      no_authority          = 4
+      others                = 5.
+  if sy-subrc ne 0.
+    lv_sso_active = abap_false.
+  endif.
+*    if lv_sso_active eq abap_false.
+*      message e027(bsp_wd) with lc_icf_url.
+*    endif.
+
+  data lv_urlc type c length 1024.
+  lv_urlc = lv_url.
+
+* start browser with single sign-on
+  if lv_sso_active = abap_true.
+    data lv_container type ref to cl_gui_container.         "#EC NEEDED
+    data lv_viewer    type ref to cl_gui_html_viewer.
+
+    create object lv_viewer
+      exporting
+        parent             = lv_container
+      exceptions
+        cntl_error         = 1
+        cntl_install_error = 2
+        dp_install_error   = 3
+        dp_error           = 4
+        others             = 5.
+    if sy-subrc ne 0.
+      message id sy-msgid type sy-msgty number sy-msgno with sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4
+              display like 'E'.
+    endif.
+
+    call method lv_viewer->enable_sapsso
+      exporting
+        enabled    = abap_true
+      exceptions
+        cntl_error = 1
+        others     = 2.
+    if sy-subrc ne 0.
+      message id sy-msgid type sy-msgty number sy-msgno with sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4
+              display like 'E'.
+    endif.
+
+    call method lv_viewer->detach_url_in_browser
+      exporting
+        url        = lv_urlc
+      exceptions
+        cntl_error = 1
+        others     = 2.
+    if sy-subrc ne 0.
+      message id sy-msgid type sy-msgty number sy-msgno with sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4
+              display like 'E'.
+    endif.
+
+    call method cl_gui_cfw=>flush
+      exceptions
+        cntl_system_error = 1
+        cntl_error        = 2
+        others            = 3.
+    if sy-subrc ne 0.
+      message id sy-msgid type sy-msgty number sy-msgno with sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4
+              display like 'E'.
+    endif.
+
+* start browser without single-sign-on
+  else.
+    call function 'CALL_BROWSER'
+      exporting
+        url                    = lv_urlc
+*       WINDOW_NAME            = ' '
+        new_window             = abap_true
+      exceptions
+        frontend_not_supported = 1
+        frontend_error         = 2
+        prog_not_found         = 3
+        no_batch               = 4
+        unspecified_error      = 5
+        others                 = 6.
+    if sy-subrc <> 0.
+      message id sy-msgid type 'S' number sy-msgno with sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4
+              display like 'E'.
+    endif.
+  endif.
+```
