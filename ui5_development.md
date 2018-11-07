@@ -149,6 +149,7 @@ In manifest.json
 
 ### Support Assistent
 The Support Assistant enables developers to check whether their apps are built according to the SAPUI5 best practices and guidelines.
+> The minimum SAPUI5 version in which the Support Assistant is available is 1.44.17.
 
 To run the Support Assistant with URL parameter:
 * ```sap-ui-support=true```
