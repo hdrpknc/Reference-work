@@ -146,3 +146,6 @@ In manifest.json
 ### UI5 root elements
 * sap.m.app
 * sap.m.splitapp
+
+### Support Assistent
+
