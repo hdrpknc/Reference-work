@@ -154,5 +154,5 @@ To run the Support Assistant with URL parameter:
 * ```sap-ui-support=true```
 * In a separate window, use the parameter ```sap-ui-support=true,window```
 
-From the Technical Information Dialog
+From the Technical Information Dialog    
 'CTRL + SHIFT + ALT + P'
