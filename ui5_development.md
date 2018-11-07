@@ -157,3 +157,7 @@ To run the Support Assistant with URL parameter:
 
 To run from the Technical Information Dialog:    
 > CTRL + SHIFT + ALT + P
+
+### Debug Mode
+
+```sap-ui-debug=true```
