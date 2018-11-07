@@ -149,3 +149,5 @@ In manifest.json
 
 ### Support Assistent
 The Support Assistant enables developers to check whether their apps are built according to the SAPUI5 best practices and guidelines.
+
+* The Support Assistant is enabled with the following URL parameter: 'sap-ui-support=true'
