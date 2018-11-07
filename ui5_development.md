@@ -153,3 +153,6 @@ The Support Assistant enables developers to check whether their apps are built a
 To run the Support Assistant with URL parameter:
 * ```sap-ui-support=true```
 * In a separate window, use the parameter ```sap-ui-support=true,window```
+
+From the Technical Information Dialog
+'CTRL + SHIFT + ALT + P'
