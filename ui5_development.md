@@ -148,4 +148,4 @@ In manifest.json
 * sap.m.splitapp
 
 ### Support Assistent
-
+The Support Assistant enables developers to check whether their apps are built according to the SAPUI5 best practices and guidelines.
