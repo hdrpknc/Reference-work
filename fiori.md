@@ -16,6 +16,7 @@ Go to the Transaction `SMICM` -> Choose from the menu "GOTO -> Services".
 `/n/ui2/flp`    
 or    
 `http://<host>.<domain>:<port>/sap/bc/ui5_ui5/ui2/ushell/shells/abap/Fiorilaunchpad.html?sap-client=<client>`    
+#### What if you can't find the site?
 ### Find Launchpad Designer
 | ta | info    |
 |----------------|---------------------------------------------|
