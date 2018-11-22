@@ -17,8 +17,8 @@
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
 ## React
-[Sublime Text](./sublime.md)
-```C:\Windows\System32\drivers\etc```
+1. [Sublime Text](./sublime.md)
+2. hosts ```C:\Windows\System32\drivers\etc```
 ## Downtimes
 ### WEBIDE          
 
