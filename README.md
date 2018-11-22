@@ -18,6 +18,7 @@
 [coding snippets](https://gist.github.com/hdrpknc)
 ## React
 [Sublime Text](./sublime.md)
+```C:\Windows\System32\drivers\etc```
 ## Downtimes
 ### WEBIDE          
 
