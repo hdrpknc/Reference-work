@@ -17,8 +17,9 @@
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
 ## React
-1. [Sublime Text](./sublime.md)
-2. hosts ```C:\Windows\System32\drivers\etc```
+1. Use Visual Studio Code
+## Windows
+1. hosts file ```C:\Windows\System32\drivers\etc```
 ## Downtimes
 ### WEBIDE          
 
