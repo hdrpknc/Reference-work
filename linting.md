@@ -12,6 +12,7 @@ which style guide to use?
 This is not a very strongly opinionated style set. It’s especially useful if you’re not concerned with code style per se, and are more invested in simply catching unused variables or syntax errors.
 ### Google JavaScript Style Guide
 http://google.github.io/styleguide/javascriptguide.xml    
+
 `"extends": ["eslint:recommended", "google"]`
 - Tabs: 2-Spaces but 4-Spaces is not flagged
 - Semicolon: Required
@@ -27,6 +28,7 @@ http://google.github.io/styleguide/javascriptguide.xml
 - Space before function parentheses: None
 ### AirBnB
 https://github.com/airbnb/javascript    
+
 `"extends": ["eslint:recommended", "airbnb"]`
 - Semicolon: Required
 - Trailing Commas: Required
@@ -42,6 +44,8 @@ https://github.com/airbnb/javascript
 - Arrow Functions Return Assignment: No
 - Object Property Shorthand: Prefer
 ### Standard
+https://standardjs.com/#why-should-i-use-javascript-standard-style     
+
 `"extends": ["eslint:recommended", "standard"]`
 - Semicolon: No
 - Trailing Commas: No
