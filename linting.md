@@ -39,6 +39,19 @@ This is not a very strongly opinionated style set. It’s especially useful if y
 - React Prop Validation: Required
 - Arrow Functions Return Assignment: No
 - Object Property Shorthand: Prefer
+### Standard
+`"extends": ["eslint:recommended", "standard"]`
+- Semicolon: No
+- Trailing Commas: No
+- Template strings: No preference
+- Space before function parentheses: Required
+- Console Statements: None
+- Underscored functions: Allowed
+- Arrow Functions Return Assignment: Never
+- Import Extensions: No Preference
+- Object Curly Spacing: Consistent
+- React Ordering: Not opinionated
+- React Prop Validation: Not required
 
 ## Round Up
 **As always, you can always jump into the eslintrc to disable or enable specific rules. For instance, turning off JSDocs in Google or template strings in AirBnB. In general best practice would recommend finding the style guide that most closely meets your needs, then adding a very limited number of customizations**     
