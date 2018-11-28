@@ -67,4 +67,4 @@ It’s got react support out of the box.
 It’s got opinions and it’s not afraid to enforce them.
 ## BONUS: Prettier
 https://prettier.io/    
-ESLint is a great tool but it can’t fix all the problems related to code formatting/linting. Just look at this table. Rows marked with wrench icon represent rules which can be fixed by ESLint automatically. Not so many, aye? 
+ESLint is a great tool but it can’t fix all the problems related to code formatting/linting. Just look at this [table](https://eslint.org/docs/rules/). Rows marked with wrench icon represent rules which can be fixed by ESLint automatically. Not so many, aye? 
