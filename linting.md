@@ -24,7 +24,7 @@ This is not a very strongly opinionated style set. It’s especially useful if y
 - Console statements: None
 - Underscored functions: Allowed
 - Space before function parentheses: None
-### AirBnB
+### AirBnB https://github.com/airbnb/javascript
 `"extends": ["eslint:recommended", "airbnb"]`
 - Semicolon: Required
 - Trailing Commas: Required
