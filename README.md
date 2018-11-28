@@ -17,7 +17,7 @@
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
 ## Web development
-1. My tools: Visual Studio Code / Sublime for developing
+1. My tools: Visual Studio Code / Sublime
 2. [Linting](./linting.md)
 ## Windows
 1. hosts file ```C:\Windows\System32\drivers\etc```
