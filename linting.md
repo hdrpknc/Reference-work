@@ -65,3 +65,5 @@ https://github.com/standard/standard
 AirBnB is the winner of this roundup!    
 It’s got react support out of the box.    
 It’s got opinions and it’s not afraid to enforce them.
+## BONUS: Prettier
+https://prettier.io/
