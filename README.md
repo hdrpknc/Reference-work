@@ -16,8 +16,8 @@
 
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
-## React
-1. Use Visual Studio Code
+## Web development
+1. My tools: Visual Studio Code / Sublime for developing
 ## Windows
 1. hosts file ```C:\Windows\System32\drivers\etc```
 ## Downtimes
