@@ -6,5 +6,5 @@ Beyond eliminating typos and errors, there’s a greater question of consistent 
 ## Comparing Style Guides
 
 ### ESLint Recommended
-`"extends": "eslint:recommended"`
+`"extends": "eslint:recommended"`     
 This is not a very strongly opinionated style set. It’s especially useful if you’re not concerned with code style per se, and are more invested in simply catching unused variables or syntax errors.
