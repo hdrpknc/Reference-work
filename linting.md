@@ -72,4 +72,4 @@ This cool piece of tech reads the code, breaks it into symbols and then rewrites
 **It would be perfect to setup it in such a way that not interested team members will not even know about it’s existence.**    
 
 Fortunately we have plugin for that: [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier). It will add Prettier’s rules to ESLint configuration and allow ESLint to use Prettier as a code formatter with `--fix` command.    
-There is also the second piece of this puzzle: eslint-config-prettier. This config will disable all the ESLint rules that are in conflict with Prettier opinion, so there sould be no conflicts between them.
+There is also the second piece of this puzzle: [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier). This config will disable all the ESLint rules that are in conflict with Prettier opinion, so there sould be no conflicts between them.
