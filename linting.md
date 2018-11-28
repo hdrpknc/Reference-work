@@ -11,6 +11,7 @@ which style guide to use?
 `"extends": "eslint:recommended"`     
 This is not a very strongly opinionated style set. It’s especially useful if you’re not concerned with code style per se, and are more invested in simply catching unused variables or syntax errors.
 ### Google JavaScript Style Guide
+http://google.github.io/styleguide/javascriptguide.xml
 `"extends": ["eslint:recommended", "google"]`
 - Tabs: 2-Spaces but 4-Spaces is not flagged
 - Semicolon: Required
@@ -24,7 +25,8 @@ This is not a very strongly opinionated style set. It’s especially useful if y
 - Console statements: None
 - Underscored functions: Allowed
 - Space before function parentheses: None
-### AirBnB https://github.com/airbnb/javascript
+### AirBnB
+https://github.com/airbnb/javascript
 `"extends": ["eslint:recommended", "airbnb"]`
 - Semicolon: Required
 - Trailing Commas: Required
