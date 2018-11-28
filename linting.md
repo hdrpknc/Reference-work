@@ -24,3 +24,18 @@ This is not a very strongly opinionated style set. It’s especially useful if y
 - Console statements: None
 - Underscored functions: Allowed
 - Space before function parentheses: None
+### AirBnB
+`"extends": ["eslint:recommended", "airbnb"]`
+- Semicolon: Required
+- Trailing Commas: Required
+- Template strings: Prefer
+- Import Extensions: None
+- Space before function parentheses: None
+- Object Curly Spacing: Yes
+- Array Bracket Spacing: None
+- Underscored functions: None
+- Object Destructuring: Prefer
+- React Ordering: Opinionated
+- React Prop Validation: Required
+- Arrow Functions Return Assignment: No
+- Object Property Shorthand: Prefer
