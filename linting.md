@@ -10,7 +10,8 @@ which style guide to use?
 ### ESLint Recommended
 `"extends": "eslint:recommended"`     
 
-This is not a very strongly opinionated style set. It’s especially useful if you’re not concerned with code style per se, and are more invested in simply catching unused variables or syntax errors.
+- This is not a very strongly opinionated style set.
+- It’s especially useful if you’re not concerned with code style per se, and are more invested in simply catching unused variables or syntax errors.
 ### Google JavaScript Style Guide
 http://google.github.io/styleguide/javascriptguide.xml    
 
