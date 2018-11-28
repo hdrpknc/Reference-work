@@ -44,7 +44,7 @@ https://github.com/airbnb/javascript
 - Arrow Functions Return Assignment: No
 - Object Property Shorthand: Prefer
 ### Standard
-https://standardjs.com/#why-should-i-use-javascript-standard-style     
+https://github.com/standard/standard     
 
 `"extends": ["eslint:recommended", "standard"]`
 - Semicolon: No
