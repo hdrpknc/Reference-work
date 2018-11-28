@@ -42,4 +42,5 @@ This is not a very strongly opinionated style set. It’s especially useful if y
 
 ## Round Up
 **As always, you can always jump into the eslintrc to disable or enable specific rules. For instance, turning off JSDocs in Google or template strings in AirBnB. In general best practice would recommend finding the style guide that most closely meets your needs, then adding a very limited number of customizations**     
+
 AirBnB is the winner of this roundup! It’s got react support out of the box. It’s got opinions and it’s not afraid to enforce them.
