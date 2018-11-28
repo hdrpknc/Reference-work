@@ -69,9 +69,7 @@ It’s got opinions and it’s not afraid to enforce them.
 ESLint is a great tool but it can’t fix all the problems related to code formatting/linting. Just look at this [table](https://eslint.org/docs/rules/). Rows marked with wrench icon represent rules which can be fixed by ESLint automatically. Not so many, aye?    
 
 This cool piece of tech reads the code, breaks it into symbols and then rewrites your code in its own way.    
-
 **It would be perfect to setup it in such a way that not interested team members will not even know about it’s existence.**    
 
 Fortunately we have plugin for that: eslint-plugin-prettier. It will add Prettier’s rules to ESLint configuration and allow ESLint to use Prettier as a code formatter with `--fix` command.    
-
 There is also the second piece of this puzzle: eslint-config-prettier. This config will disable all the ESLint rules that are in conflict with Prettier opinion, so there sould be no conflicts between them.
