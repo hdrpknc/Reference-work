@@ -1,4 +1,4 @@
-### Splitting the view
+### Compose view through fragments
 
 ```XML
 <core:FragmentDefinition
