@@ -1,5 +1,16 @@
 ### Splitting the view
 
+```XML
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core" >
+   <Dialog
+      id="helloDialog"
+      title="Hello {/recipient/name}">
+   </Dialog>
+</core:FragmentDefinition>
+```
+
 
 #### Retrieving Control Instances by Their ID
 
