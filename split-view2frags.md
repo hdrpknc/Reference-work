@@ -1,5 +1,14 @@
 ### Compose view through fragments
 
+webapp/view/HelloDialog.fragment.xml
+
+```XML
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" controllerName="testdata.fragments.XMLViewController" >
+    <core:Fragment               fragmentName="my.useful.SimpleUiPart" type="XML" />
+    <core:Fragment id="xmlInXml" fragmentName="my.useful.SimpleUiPart" type="XML" />
+</mvc:View>
+```
+
 ```XML
 <core:FragmentDefinition
    xmlns="sap.m"
