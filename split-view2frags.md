@@ -14,3 +14,4 @@ Assuming the control has the ID ```myControl```, there are two ways how to retri
   - When a fragment ID myFrag was given: ```myControl = this.byId(sap.ui.core.Fragment.createId("myFrag", "myControl"))```
   
   
+ 
