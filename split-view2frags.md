@@ -1,13 +1,13 @@
 ### Compose view through fragments
 
-webapp/fragments/tableForMap.fragment.xml
+
 ```XML
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" controllerName="Kartenintegration.controller.ViewMain">
-    <core:Fragment               fragmentName="my.useful.SimpleUiPart" type="XML" />
-    <core:Fragment id="idblabla" fragmentName="my.useful.SimpleUiPart" type="XML" />
+    <core:Fragment               fragmentName="Kartenintegration.fragments.tableForMap" type="XML" />
+    <core:Fragment id="idblabla" fragmentName="Kartenintegration.fragments.tableForMap" type="XML" />
 </mvc:View>
 ```
-
+webapp/fragments/tableForMap.fragment.xml
 ```XML
 <core:FragmentDefinition
    xmlns="sap.m"
