@@ -8,4 +8,4 @@ Assuming the control has the ID ```myControl```, there are two ways how to retri
 
 - Retrieving a control instance when the fragment is not part of a view
   - When no fragment ID was given: ```myControl = sap.ui.getCore().byId("myControl")```
-  - When a fragment ID myFrag was given: ```When a fragment ID myFrag was given: myControl = sap.ui.core.Fragment.byId("myFrag", "myControl")```
+  - When a fragment ID myFrag was given: ```myControl = sap.ui.core.Fragment.byId("myFrag", "myControl")```
