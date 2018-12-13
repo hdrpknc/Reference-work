@@ -10,3 +10,7 @@ Assuming the control has the ID ```myControl```, there are two ways how to retri
   - When no fragment ID was given: ```myControl = sap.ui.getCore().byId("myControl")```
   - When a fragment ID myFrag was given: ```myControl = sap.ui.core.Fragment.byId("myFrag", "myControl")```
 - Retrieving a control instance when the **fragment is embedded into a view** and the code is inside a controller. The controller is called this in the following examples
+  - When no fragment ID was given: ```myControl = this.byId("myControl")```
+  - When a fragment ID myFrag was given: ```myControl = this.byId(sap.ui.core.Fragment.createId("myFrag", "myControl"))```
+  
+  
