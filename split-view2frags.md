@@ -3,11 +3,11 @@
 
 ```XML
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" controllerName="Kartenintegration.controller.ViewMain">
-    <core:Fragment               fragmentName="Kartenintegration.fragments.tableForMap" type="XML" />
-    <core:Fragment id="idblabla" fragmentName="Kartenintegration.fragments.tableForMap" type="XML" />
+    <core:Fragment               fragmentName="Kartenintegration.fragments.HelloDialog" type="XML" />
+    <core:Fragment id="idblabla" fragmentName="Kartenintegration.fragments.HelloDialog" type="XML" />
 </mvc:View>
 ```
-webapp/fragments/tableForMap.fragment.xml
+webapp/fragments/HelloDialog.fragment.xml
 ```XML
 <core:FragmentDefinition
    xmlns="sap.m"
