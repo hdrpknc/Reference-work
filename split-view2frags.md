@@ -1,6 +1,6 @@
 ### Compose view through fragments
 
-
+ViewMain.view.xml
 ```XML
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" controllerName="Kartenintegration.controller.ViewMain">
     <core:Fragment               fragmentName="Kartenintegration.fragments.HelloDialog" type="XML" />
