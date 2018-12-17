@@ -20,7 +20,7 @@ webapp/fragments/HelloDialog.fragment.xml
 ```
 
 
-#### Retrieving Control Instances by Their ID
+### Retrieving Control Instances by Their ID
 
 Due to the above prefixing that guarantees unique IDs, there are different cases possible which require different calls.
 Assuming the control has the ID ```myControl```, there are two ways how to retrieve it by its ID.
