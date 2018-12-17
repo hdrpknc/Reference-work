@@ -14,6 +14,7 @@
 ## ABAP
 1. [ABAP tips](./abap_tips.md)
 2. [ML TAs](./ml.md)
+3. [CDS](./cds.md)
 
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
