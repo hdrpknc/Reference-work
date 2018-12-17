@@ -21,5 +21,5 @@ Da **ABAP Dictionary Views**(SE11) nur auf der Applikationsebene beschränkt sin
 Den **HANA CDS Views** ermöglichen die Definierung von Datenmodellen auf der Ebene der Datenbank, wo sich auch direkt die XS Engine befindet. Als „Programmiersprache“ wird das mächtigere *native SQL* zur Definierung dieser Views verwendet.
 Die **ABAP CDS Views** sind unabhängig von einer SAP HANA DB. In der ABAP Dictionary(SE11) können *ABAP CDS Views* aktiviert werden, welche wie jede andere View im Quellcode mittels einer TYPE-Anweisung verwendet werden kann. Hier wird übrigens *OpenSQL* anstatt *natives SQL* verwendet
 
-## HANA CDS Views -> Bindung an einer einzigen Datenbanktechnologie -> Features des Code Pushdowns. 
-## ABAP CDS Views -> Freiheit in den Datenbanken -> nicht zu jedem Zeitpunkt alle Features verfügbar -> Features des Code Pushdowns. 
+* HANA CDS Views -> Bindung an einer einzigen Datenbanktechnologie -> Features des Code Pushdowns. 
+* ABAP CDS Views -> Freiheit in den Datenbanken -> nicht zu jedem Zeitpunkt alle Features verfügbar -> Features des Code Pushdowns. 
