@@ -11,3 +11,9 @@ Die **ABAP CDS Views** sind unabhängig von einer SAP HANA DB. In der ABAP Dicti
 
 * HANA CDS Views -> Bindung an einer einzigen Datenbanktechnologie -> Features des Code Pushdowns. 
 * ABAP CDS Views -> Freiheit in den Datenbanken -> nicht zu jedem Zeitpunkt alle Features verfügbar -> Features des Code Pushdowns. 
+
+### CDS Examples
+
+```SQL
+where tj02t.spras = $session.system_language
+```
