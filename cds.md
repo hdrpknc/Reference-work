@@ -22,3 +22,7 @@ where tj02t.spras = $session.system_language
 DATS_TIMS_TO_TSTMP(qmel.erdat,qmel.erzeit,abap_system_timezone( $session.client,'NULL' ) ,$session.client ,'NULL')  as starttimestamp
 ```
 
+```SQL
+TSTMP_SECONDS_BETWEEN(starttimestamp, endtimestamp, 'FAIL')        as durationsec,
+cast(TSTMP_SECONDS_BETWEEN(starttimestamp, endtimestamp, 'FAIL') as abap.fltp ) / 60.0 as durationmin,
+```
