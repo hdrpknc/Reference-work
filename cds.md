@@ -17,3 +17,8 @@ Die **ABAP CDS Views** sind unabhängig von einer SAP HANA DB. In der ABAP Dicti
 ```SQL
 where tj02t.spras = $session.system_language
 ```
+
+```SQL
+DATS_TIMS_TO_TSTMP(qmel.erdat,qmel.erzeit,abap_system_timezone( $session.client,'NULL' ) ,$session.client ,'NULL')  as starttimestamp
+```
+
