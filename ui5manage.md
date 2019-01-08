@@ -9,7 +9,7 @@
 
 #### to enhance the environment with features
 _you need the following step for npm install. otherwise npm doesn't know where sap is_
-- [ ] create .npmrc file in you workplace folder with the following content: ```@sap:registry=https://npm.sap.com/```
+- [ ] create .npmrc file in you workplace folder with the following content: ```@sap:registry=https://npm.sap.com/```    
 _you need the following step for the dependencies e.g. grunt_
 - [ ] ```npm install```
 
