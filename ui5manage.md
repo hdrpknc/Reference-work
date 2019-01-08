@@ -29,6 +29,9 @@ serviceConfig : {
   serviceUrl : "http://localhost:8888/proxy/V2/(S(sapuidemotdg))/OData/OData.svc/"
 }
 ```
+As you see I not only changed the hostname and port but also prepended the term /proxy to the URL. This is needed in the static_server.js file to differentiate between request that have to be send to the backend system and those that can be processed locally.
+#### Code adjustment static_server.js
+
 
 ### Grunt
 
