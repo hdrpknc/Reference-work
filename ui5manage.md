@@ -8,7 +8,7 @@
 - [ ] switch environment to your mood
 
 #### to enhance the environment
-- [ ] create .npmrc file in you workplace folder with the following content: '@sap:registry=https://npm.sap.com/'
+- [ ] create .npmrc file in you workplace folder with the following content: ```@sap:registry=https://npm.sap.com/```
 - [ ] install [ui5 cli](https://github.com/SAP/ui5-tooling) for the local server
 
 ### Grunt
