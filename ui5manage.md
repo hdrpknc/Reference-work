@@ -31,7 +31,21 @@ serviceConfig : {
 ```
 As you see I not only changed the hostname and port but also prepended the term /proxy to the URL. This is needed in the static_server.js file to differentiate between request that have to be send to the backend system and those that can be processed locally.
 #### Code adjustment static_server.js
-
+In the static_server.js file you have to tell the node.js server process which request should be forwarded to the backend server and which backend server to use. You do that with the following lines quite at the beginning of the script.      
+```
+///////////////////////////////////////////////////////////////////////////
+// Adjust this settings to your needs for proxying the backend requests  //
+///////////////////////////////////////////////////////////////////////////
+proxy_cfg = {
+  // the prefix you use to call your backend functions via the proxy server
+  prefix: "/proxy/",
+  // the host of your backend server
+  host: "services.odata.org",
+  // port of your backend server
+  port: ""
+};
+```
+In line 06 I tell the server that all requests that have the prefix /proxy/ should be send to the backend OData provider. The host and proxy parameters define the backend system to use.
 
 ### Grunt
 
