@@ -6,6 +6,9 @@
 - [ ] export project and copy files into according git repository (this step is important because of "dot"-files)
 - [ ] use your favourite ide or texteditor (if you want to use webide, delete the origin project folder then clone)
 - [ ] switch environment to your mood
+
+#### to enhance the environment
+- [ ] create .npmrc file in you workplace folder with the following content: '@sap:registry=https://npm.sap.com/'
 - [ ] install [ui5 cli](https://github.com/SAP/ui5-tooling) for the local server
 
 ### Grunt
