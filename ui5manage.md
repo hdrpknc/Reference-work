@@ -13,10 +13,7 @@
 | ------------- |:-------------:|
 | lint     | Validates the project code using ESLint according to the rules defined in the .eslintrc configuration file located in the root of your project. |
 | clean      | Cleans the dist target folder from the previous build results.      |
-| build | Produces a new build output in the dist folder of your project that is ready and optimized for better performance in the productive environment. The following tasks are executed during the build:
-Minification of .css files
-Minification of JavaScript files (minified files)
-Copying of the original files to the dist folder with -dbg suffix added for debugging purposes
+| build | Produces a new build output in the dist folder of your project that is ready and optimized for better performance in the productive environment. The following tasks are executed during the build: - Minification of .css files - Minification of JavaScript files (minified files) - Copying of the original files to the dist folder with -dbg suffix added for debugging purposes
 Generation of the Component-preload.js and Component-preload-dbg.js preload files for the debug and minified files
 Minification of the preload file
 Generation of the CachebusterInfo.json file
