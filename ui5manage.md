@@ -13,7 +13,8 @@
 > _you need this step for the dependencies e.g. grunt_
 - [ ] ```npm install```
 - [ ] copy [static_server.js](static_server.js) into your project (https://github.com/htammen/static_server)
-- [ ] ```npm install http-proxy``` _the http-proxy package that is needed by the static_server script._
+> _the http-proxy package that is needed by the static_server script._
+- [ ] ```npm install http-proxy```
 - [ ] just execute the server with ```node static_server.js``` or with any other port ```node static_server.js 8080```
 
 ### Grunt
