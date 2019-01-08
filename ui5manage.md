@@ -22,6 +22,14 @@ This is nearly everything you have to do. But if you run your UI5 application ag
 
 In your UI5 code you have to tell sapui5 that it should load the OData service from your localhost instead of the real backend server. If you don’t do that you won’t get any result because of SOP (Same Origin Policy). So change the URL to your OData service in your Component.js file like shown below.
 
+```
+serviceConfig : {
+  name : "Northwind",
+  // serviceUrl : "http://services.odata.org/V2/(S(sapuidemotdg))/OData/OData.svc/"
+  serviceUrl : "http://localhost:8888/proxy/V2/(S(sapuidemotdg))/OData/OData.svc/"
+}
+```
+
 ### Grunt
 
 | Task          | Description   |
