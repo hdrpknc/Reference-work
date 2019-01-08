@@ -11,8 +11,8 @@
 _you need the following step for npm install. otherwise npm doesn't know where sap is_
 - [ ] create .npmrc file in you workplace folder with the following content: ```@sap:registry=https://npm.sap.com/```
 - [ ] ```npm install``` _you need this step for the dependencies e.g. grunt_
-
-- [ ] ```npm install http-proxy```
+- [ ] copy 
+- [ ] ```npm install http-proxy``` _the http-proxy package that is needed by the static_server script._
 
 ### Grunt
 
