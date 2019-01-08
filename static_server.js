@@ -1,3 +1,7 @@
+//The static_server.js currently does not support https calls. 
+//If you need to call your backend via https you have to adjust the script. 
+//Please have a look at node http-proxy package for details.
+
 var http = require("http"),
     url = require("url"),
     httpProxy = require('http-proxy'),
