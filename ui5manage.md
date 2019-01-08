@@ -13,6 +13,7 @@ _you need the following step for npm install. otherwise npm doesn't know where s
 - [ ] ```npm install``` _you need this step for the dependencies e.g. grunt_
 - [ ] copy [static_server.js](static_server.js) into your project (https://github.com/htammen/static_server)
 - [ ] ```npm install http-proxy``` _the http-proxy package that is needed by the static_server script._
+- [ ] just execute the server with ```node static_server.js``` or with any other port ```node static_server.js 8080```
 
 ### Grunt
 
