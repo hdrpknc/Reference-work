@@ -10,6 +10,7 @@
 6. [UI5 with custom formatters](./custom-formatters.md)
 7. [UI5 fragments](./split-view2frags.md)
 8. [UI5 routing](./routing.md)
+9. [UI5 manage_project](./ui5manage.md)
 
 ## ABAP
 1. [ABAP tips](./abap_tips.md)
