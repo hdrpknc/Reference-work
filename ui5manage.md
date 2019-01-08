@@ -18,7 +18,9 @@
 - [ ] ```npm install http-proxy```
 - [ ] just execute the server with ```node static_server.js``` or with any other port ```node static_server.js 8080```
 ##### Code adjustments when using life Backend
-This is nearly everything you have to do. But if you run your UI5 application against a life backend gateway server or other OData provider you need to adjust one line of code in your UI5 sources and one to three lines in the static_server.js file
+This is nearly everything you have to do. But if you run your UI5 application against a life backend gateway server or other OData provider you need to adjust one line of code in your UI5 sources and one to three lines in the static_server.js file     
+
+In your UI5 code you have to tell sapui5 that it should load the OData service from your localhost instead of the real backend server. If you don’t do that you won’t get any result because of SOP (Same Origin Policy). So change the URL to your OData service in your Component.js file like shown below.
 
 ### Grunt
 
