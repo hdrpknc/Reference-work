@@ -13,10 +13,8 @@
 > _you need this step for the dependencies e.g. grunt_
 - [ ] ```npm install```
 #### local node.js server
-- [ ] copy [static_server.js](static_server.js) into your project (https://github.com/htammen/static_server)
-> _the http-proxy package that is needed by the static_server script._
-- [ ] ```npm install http-proxy```
-- [ ] just execute the server with ```node static_server.js``` or with any other port ```node static_server.js 8080```
+- [ ] copy [static_server.js](static_server.js) into your project
+- [ ] just execute the server with ```node static_server.js```
 ##### Code adjustments when using life Backend
 This is nearly everything you have to do. But if you run your UI5 application against a life backend gateway server or other OData provider you need to adjust one line of code in your UI5 sources and one to three lines in the static_server.js file     
 
