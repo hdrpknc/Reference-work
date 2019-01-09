@@ -3,7 +3,7 @@
 ### Environment
 - [ ] use templetes from WEBIDE to _kickstart/create/extend_ project
 - [ ] create git repository (_gitlab, github, cloudcockpit_)
-- [ ] export project from WEBIDE and copy files to your divices git repository (this step is important because of "dot"-files)
+- [ ] export project from WEBIDE and copy files to your local git repository (this step is important because of "dot"-files)
 - [ ] use your favourite ide or texteditor (if you want to use webide, delete the origin project folder then clone)
 - [ ] switch environment to your mood
 
