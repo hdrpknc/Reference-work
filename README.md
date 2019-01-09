@@ -24,7 +24,8 @@
 2. [Linting](./linting.md)
 ## Windows
 1. hosts file ```C:\Windows\System32\drivers\etc```
-2. disable-web-security-chrome ```
+2. disable-web-security-chrome 
+```
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session2" --disable-web-security --allow-running-insecure-content
 ```
 ## Downtimes
