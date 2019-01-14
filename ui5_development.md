@@ -158,6 +158,7 @@ To run the Support Assistant with URL parameter:
 To run from the Technical Information Dialog:    
 > CTRL + SHIFT + ALT + P
 
-### Debug Mode
+## URL parameter
 
-```sap-ui-debug=true```
+* Deactivate component Preload ```&sap-ui-xx-componentPreload=off```
+* Debug Mode ```sap-ui-debug=true```
