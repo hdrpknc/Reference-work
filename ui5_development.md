@@ -15,12 +15,6 @@ You can refer to a specific version by using a versioned URL as in the following
 ```
 The specific version is here *1.42.6*
 
-### SAPUI5 get URL parameters  
-`http://hdrpknc.de:8034/sap/bc/ui5_ui5/sap/zui5_karte/index.html?sap-client=200&sap-ui-language=DE&sap-ui-appcache=false&param1=amk`
-
-The parameter is here `param1=amk`
-
-`var sValue = jQuery.sap.getUriParameters().get("param1");`
 ### Using Native HTML in XML Views
 ```xml
 <mvc:View controllerName="hdrpknc.controller.ViewMain" 
@@ -167,3 +161,10 @@ To run from the Technical Information Dialog:
 
 * To deactivate cache busting in your web browser, set this parameter to "true". This is only needed for troubleshooting purposes ```sap-ushell-nocb```
 * To improve performance, the SAPUI5 cache buster tokens themselves are cached on the front-end server, with a validity of two hours. If you need to bypass this server-side cache, set this parameter to "true". ```sap-ushell-cb-nocache```
+
+### SAPUI5 get URL parameters  
+`http://hdrpknc.de:8034/sap/bc/ui5_ui5/sap/zui5_karte/index.html?sap-client=200&sap-ui-language=DE&sap-ui-appcache=false&param1=amk`
+
+The parameter is here `param1=amk`
+
+`var sValue = jQuery.sap.getUriParameters().get("param1");`
