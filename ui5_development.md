@@ -162,3 +162,8 @@ To run from the Technical Information Dialog:
 
 * Deactivate component Preload ```&sap-ui-xx-componentPreload=off```
 * Debug Mode ```sap-ui-debug=true```
+
+### URL Parameters for the SAP Fiori Launchpad
+
+* ```sap-ushell-nocb```
+* To improve performance, the SAPUI5 cache buster tokens themselves are cached on the front-end server, with a validity of two hours. If you need to bypass this server-side cache, set this parameter to "true". ```sap-ushell-cb-nocache```
