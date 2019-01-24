@@ -13,7 +13,7 @@
 > _you need this step for the dependencies e.g. grunt_
 - [ ] ```npm install```
 #### local node.js server
-- [ ] copy [static_server.js](static_server.js) into your project
+- [ ] copy [server.js](static_server.js) into your project
 - [ ] just execute the server with ```node static_server.js```
 
 ### Grunt
