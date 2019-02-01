@@ -14,3 +14,4 @@
 2. **Creating the Logical Port** using Transaction SOAMANAGER
     * TA SOAMANAGER
     * Select Tab: “Service Administration” then select “Web Service Configuration”
+    * Search for your proxy.  In my case I searched for:   “ZPREFIX_WS2CO_WEB_SERVICE2SOAP”
