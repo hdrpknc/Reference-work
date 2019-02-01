@@ -16,6 +16,7 @@
 1. [ABAP tips](./abap_tips.md)
 2. [ML TAs](./ml.md)
 3. [CDS](./cds.md)
+4. [Consume SOAP](./consume_soap.md)
 
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
