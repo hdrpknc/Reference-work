@@ -13,3 +13,11 @@
     * TA SOAMANAGER
     * Select Tab: “Service Administration” then select “Web Service Configuration”
     * Search for your proxy.  In my case I searched for:   “ZPREFIX_WS2CO_WEB_SERVICE2SOAP”
+    * Highlight the matched row and select “Apply Selection”.  The following proxy details are displayed:
+    * Notice there are 0 Logical Ports (we need to create one)
+    * Select the “Configurations” Tab
+    * Select the button “Create”
+
+
+
+
