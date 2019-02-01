@@ -8,8 +8,9 @@
     * At this point you have created a proxy which can be used from ABAP to call the external web service provided by the specified URL.  If you refresh your package, you will see several new items. 
     * Select the Client Proxy (Service Consumer) you just built and activate it.
 > For each consumer web service you create, you will also need to create a logical port.  A logical port allows the developer to specify the attributes of the web service call.  For example specifying security requirements or whether the call should be synchronous or asynchronous.
+
+> For each consumer web service you create, you will also need to create a logical port.  A logical port allows the developer to specify the attributes of the web service call.  For example specifying security requirements or whether the call should be synchronous or asynchronous.  
+
 2. **Creating the Logical Port** using Transaction SOAMANAGER
-> For each consumer web service you create, you will also need to create a logical port.  A logical port allows the developer to specify the attributes of the web service call.  For example specifying security requirements or whether the call should be synchronous or asynchronous.    
-1. asdf
     * TA SOAMANAGER
     * Select Tab: “Service Administration” then select “Web Service Configuration”
