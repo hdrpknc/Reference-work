@@ -36,7 +36,7 @@ TRY.
     WRITE:/  msg.
   CATCH zkedbcx_service_exception INTO exc.
     msg = exc->get_text( ).
-  WRITE:/  msg.
+    WRITE:/  msg.
 ENDTRY.
 ```
 ### link from abap with sso
