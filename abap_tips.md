@@ -21,7 +21,7 @@
 5. transport to testsystem
 
 ### try catch
-```ABAB
+```ABAP
 *declarations for Try/Catch block exception handling
 DATA: exc TYPE REF TO cx_root.
 DATA: msg TYPE string.
