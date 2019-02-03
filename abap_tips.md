@@ -20,6 +20,25 @@
 4. implement note
 5. transport to testsystem
 
+### try catch
+```ABAB
+*declarations for Try/Catch block exception handling
+DATA: exc TYPE REF TO cx_root.
+DATA: msg TYPE string.
+TRY.
+  CALL METHOD proxy_test->generate_interaction_id
+      EXPORTING
+        generate_interaction_id        = input
+      IMPORTING
+        generate_interaction_id_respon = output.
+  CATCH cx_ai_system_fault INTO exc .
+    msg = exc->get_text( ).
+    WRITE:/  msg.
+  CATCH zkedbcx_service_exception INTO exc.
+    msg = exc->get_text( ).
+  WRITE:/  msg.
+ENDTRY.
+```
 ### link from abap with sso
 
 ```ABAP
