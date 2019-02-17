@@ -81,5 +81,6 @@ There is also the second piece of this puzzle: [eslint-config-prettier](https://
 #### - Step 1: Install the Prettier and ESLint VS Code Extensions
 Install the following Visual Studio Code Extensions:
 
-ESLint
+ESLint 
+
 Prettier
