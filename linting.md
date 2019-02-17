@@ -100,9 +100,9 @@ You most likely want to apply the Prettier formatting whenever you save your fil
 
 ```JSON
 {
-"editor.formatOnSave": true,
-"[javascript]": {
-"editor.formatOnSave": false
-}
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  }
 }
 ```
