@@ -94,3 +94,6 @@ Install the following Visual Studio Code Extensions:
   "extends": ["react-app", "plugin:prettier/recommended"]
 }
 ```
+
+#### Step 4: Apply Prettier Formatting on Save (Optional)
+You most likely want to apply the Prettier formatting whenever you save your files. To do so, add the following to your Visual Studio Code Workspace Settings: `"editor.formatOnSave": true`
