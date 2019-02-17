@@ -83,4 +83,5 @@ Install the following Visual Studio Code Extensions:
 - ESLint 
 - Prettier
 
-#### Step 2: 
+#### Step 2: Install Prettier
+`npm install --save-dev --save-exact prettier`
