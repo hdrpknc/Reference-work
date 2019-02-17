@@ -95,6 +95,9 @@ Install the following Visual Studio Code Extensions:
 }
 ```
 or
+
+`npm install --save-dev eslint-config-airbnb`
+
 ```json
 {
   "extends": ["airbnb", "plugin:prettier/recommended"]
