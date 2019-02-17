@@ -78,7 +78,7 @@ There is also the second piece of this puzzle: [eslint-config-prettier](https://
 
 ### Using Prettier with VS Code and Create React App
 
-#### Step 2: Install the Prettier and ESLint VS Code Extensions
+#### 1. Step 1: Install the Prettier and ESLint VS Code Extensions
 Install the following Visual Studio Code Extensions:
 
 ESLint
