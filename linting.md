@@ -76,5 +76,5 @@ This cool piece of tech reads the code, breaks it into symbols and then rewrites
 Fortunately we have plugin for that: [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier). It will add Prettier’s rules to ESLint configuration and allow ESLint to use Prettier as a code formatter with `--fix` command.    
 There is also the second piece of this puzzle: [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier). This config will disable all the ESLint rules that are in conflict with Prettier opinion, so there sould be no conflicts between them.
 
-## Using Prettier with VS Code and Create React App
+### Using Prettier with VS Code and Create React App
 
