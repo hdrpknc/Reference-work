@@ -84,6 +84,6 @@ Install the following Visual Studio Code Extensions:
 - Prettier
 
 #### Step 2: Install Prettier and the ESLint Plugin locally
-> Note: You will need to install ESLint if you are not using Create React App
-`npm install --save-dev --save-exact prettier`
+> Note: You will need to install ESLint if you are not using Create React App    
+`npm install --save-dev --save-exact prettier`    
 `eslint-plugin-prettier`
