@@ -101,6 +101,10 @@ or
 }
 ```
 
+Enables eslint-plugin-prettier.   
+Sets the prettier/prettier rule to "error".   
+Extends the eslint-config-prettier configuration.   
+
 #### Step 4: Apply Prettier Formatting on Save (Optional)
 You most likely want to apply the Prettier formatting whenever you save your files. However we do want to turn of the prettier extension for js-files, since we set up eslint for handle that for us. To do so, add the following to your Visual Studio Code Workspace Settings:       
 
