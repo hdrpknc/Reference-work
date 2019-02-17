@@ -102,5 +102,6 @@ You most likely want to apply the Prettier formatting whenever you save your fil
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false
-  }
+  },
+  "eslint.autoFixOnSave": true,
 ```
