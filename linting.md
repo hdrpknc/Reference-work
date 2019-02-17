@@ -97,7 +97,7 @@ Install the following Visual Studio Code Extensions:
 or
 ```json
 {
-  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "extends": ["airbnb", "plugin:prettier/recommended"]
 }
 ```
 
