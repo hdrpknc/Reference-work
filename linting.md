@@ -104,5 +104,9 @@ You most likely want to apply the Prettier formatting whenever you save your fil
     "editor.formatOnSave": false
   },
   "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true
+  "eslint.alwaysShowStatus": true,
+  "prettier.disableLanguages": [
+    "js"
+  ],
+  "files.autoSave": "onFocusChange",
 ```
