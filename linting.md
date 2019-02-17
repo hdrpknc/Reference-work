@@ -91,6 +91,6 @@ Install the following Visual Studio Code Extensions:
 #### Step 3: create .eslintrc -file
 ```JSON
 {
-  "extends": ["react-app", "plugin:prettier"]
+  "extends": ["react-app", "plugin:prettier/recommended"]
 }
 ```
