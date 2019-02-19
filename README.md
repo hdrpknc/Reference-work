@@ -11,6 +11,7 @@
 7. [UI5 fragments](./split-view2frags.md)
 8. [UI5 routing](./routing.md)
 9. [UI5 manage project](./ui5manage.md)
+10. [Cloud Connector](./cc.md)
 
 ## ABAP
 1. [ABAP tips](./abap_tips.md)
