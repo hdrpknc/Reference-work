@@ -5,7 +5,7 @@
 - [ ] my user exists on frontend and backend server and is the same user
 - [ ] my user exists in d and q and is the same
 - [ ] user has dev-accesskey on all d systems
-- [ ] test data is available on d system -> NEVER ACCEPT A EXTENSION WITH DATA ON Q OR P! NEVER!!! 
+- [ ] test data is available on d system -> NEVER ACCEPT AN EXTENSION WITH DATA ON Q OR P! NEVER!!! 
 - [ ] important SAP Notes for the app are added. determine at [fiori apps library](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/home)
 ____________________________________
 #### extend service
