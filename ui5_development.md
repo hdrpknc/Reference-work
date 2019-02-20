@@ -157,6 +157,8 @@ To run from the Technical Information Dialog:
 * Deactivate component Preload ```&sap-ui-xx-componentPreload=off```
 * Debug Mode ```sap-ui-debug=true```
 
+`?sap-ui-debug=true&sap-ui-xx-componentPreload=off`
+
 ### URL Parameters for the SAP Fiori Launchpad
 
 * To deactivate cache busting in your web browser. ```?sap-ushell-nocb=true``` before the `#` in lp      
