@@ -5,6 +5,8 @@
 - [ ] my user exists on frontend and backend server and is the same user
 - [ ] my user exists in d and q and is the same
 - [ ] user has dev-accesskey on all d systems
+- [ ] test data is available on d system
+- [ ] important SAP Notes for the app are added https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/home 
 ____________________________________
 #### extend service
 - [ ] create new segw-project that redefines std. OData project 
