@@ -17,6 +17,7 @@ ____________________________________
 >   toggle in 'standardsystem' -> save **--> this workaround helps to get a transport task dialog**
 #### extend app
 - [ ] create extension project in webide
+- [ ] stick to the dbg-files while coding
 __________________________________
 #### get the extended app into the launchpad
 - [ ] negotiate with the responsible person for the system about catalogs, groups and roles and     
