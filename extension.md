@@ -80,3 +80,38 @@ super->
    IMPORTING   er_entity = er_entity ).
 ENDCASE.
 ```
+
+### Get data for additional fields
+
+```javascript
+	extHookCustomLogicForAttachRouteMatch: function (e) {
+		// Place your hook implementation code here 
+		var oModel = this.getView().getModel();
+		var aBatchCustomizationReads = [];
+		aBatchCustomizationReads.push(oModel.createBatchOperation("OriginSet", "GET"));
+		aBatchCustomizationReads.push(oModel.createBatchOperation("CollaborationSet", "GET"));
+		aBatchCustomizationReads.push(oModel.createBatchOperation("OpportunityGroupSet", "GET"));
+		oModel.addBatchReadOperations(aBatchCustomizationReads);
+		var oData = {
+			Origins: [],
+			Collaborations: [],
+			OpportunityGroups: []
+		};
+		var that = this;
+		oModel.submitBatch(jQuery.proxy(function (oResponses) {
+			if (oResponses.__batchResponses[0].statusCode === "200") {
+				oData.Origins = oResponses.__batchResponses[0].data.results;
+			} else
+				that.handleErrorsCustom(oResponses, true);
+			if (oResponses.__batchResponses[1].statusCode === "200") {
+				oData.Collaborations = oResponses.__batchResponses[1].data.results;
+			} else
+				that.handleErrorsCustom(oResponses, true);
+			if (oResponses.__batchResponses[2].statusCode === "200") {
+				oData.OpportunityGroups = oResponses.__batchResponses[2].data.results;
+			} else
+				that.handleErrorsCustom(oResponses, true);
+			that.fill_dropDownsCustom(oData);
+		}, this), jQuery.proxy(this.handleErrorsCustom, this), true);
+	},
+      ```
