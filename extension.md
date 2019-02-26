@@ -115,3 +115,9 @@ ENDCASE.
 		}, this), jQuery.proxy(this.handleErrorsCustom, this), true);
 	},
 ```
+### Additional OData fields
+
+- call `SEGW`
+- open service project
+- double click on `Entity Types`
+- copy the `ABAP Structure Type Name` for the entity you wish to add fields to
