@@ -122,3 +122,4 @@ ENDCASE.
 - double click on `Entity Types`
 - copy the `ABAP Structure Type Name` for the entity you wish to add fields to
 - call `se80` and search for the development object `ABAP Structure Type Name`
+- double click on the `Component Type` of the .INCLUDE
