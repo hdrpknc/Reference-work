@@ -11,7 +11,10 @@
 8. When you reach an authority-check and execute it and sy-subrc has a  value not equal to 0, then you will have to update sy-subrc to 0 in order to be allowed to go on with the execution.
 9. F8 to go on. You will have to repeat previous steps in all authority-check statements reached where sy-subrc is valuated to non 0 value when it is executed
 
+### Delete repository objects
 
+1. SE03
+2.  “Change Object Directory Entries” / Objektkatalogeinträge ändern 
 
 ### find and get notes
 1. first find the error badi-, class- or app- name
