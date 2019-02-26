@@ -14,7 +14,7 @@
 ### Delete repository objects or change dev class $TMP
 1. SE03
 2.  “Change Object Directory Entries” / Objektkatalogeinträge ändern
-> sometimes you need to try a different order
+> sometimes you need to try a different order while changing
 
 ### find and get notes
 1. first find the error badi-, class- or app- name
