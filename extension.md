@@ -125,4 +125,4 @@ ENDCASE.
 - double click on the `Component Type` of the .INCLUDE or click directly to Customer Extensions Include of the structure 
 (on the tree)
 - Select the „Append Structure...“ button. 
-- 
+- name the Append -> simple name rule: if the original structure is named `GBAPPS_PO_HEADER_DETAILS` call it `ZPO_HEADER_DETAILS`
