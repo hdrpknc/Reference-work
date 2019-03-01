@@ -47,6 +47,8 @@ This is only needed for troubleshooting purposes
 
 * To improve performance, the SAPUI5 cache buster tokens themselves are cached on the front-end server, with a validity of two hours. If you need to bypass this server-side cache, set this parameter to "true". ```sap-ushell-cb-nocache```
 
+`?sap-ushell-nocb=true&sap-ushell-cb-nocache=true`
+
 ### Support Assistent
 The Support Assistant enables developers to check whether their apps are built according to the SAPUI5 best practices and guidelines.
 > The minimum SAPUI5 version in which the Support Assistant is available is 1.44.17.
