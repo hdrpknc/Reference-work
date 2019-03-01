@@ -40,6 +40,9 @@ TRY.
   CATCH zkedbcx_service_exception INTO exc.
     msg = exc->get_text( ).
     WRITE:/  msg.
+  CATCH cx_root INTO exc.  "Handler for all exceptions
+    msg = exc->get_text( ).
+    WRITE:/  msg.
 ENDTRY.
 ```
 ### link from abap with sso
