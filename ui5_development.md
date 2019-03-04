@@ -97,6 +97,7 @@ In manifest.json
 	"sap.platform.abap": {
 ```
 ### Load External JS
+In manifest.json 
 ```JSON
     "sap.ui5": {
         "_version": "1.1.0",
