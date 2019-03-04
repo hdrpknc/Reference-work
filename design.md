@@ -14,7 +14,7 @@
 3. Set the following property, this excludes all SAP-Standard icons and their special fonts
 ```
  :not(.sapUiIcon) {
-     font-family: Candara;
+     font-family: Candara !important;
 }
 ```
 
