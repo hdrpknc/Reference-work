@@ -18,6 +18,8 @@
 }
 ```
 
+### How to make SAPUI5 Icons available
+
 
 ### Fullscreenmode 
 #### with Index – File
