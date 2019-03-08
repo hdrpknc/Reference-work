@@ -2,7 +2,7 @@
 
 1. Make a custom CSS in your project folder, e.g. css\style.css
 2. Include the CSS in your manifest.json
-```json
+```JSON
 "resources": {
     "css": [
         {
