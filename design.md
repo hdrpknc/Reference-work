@@ -2,7 +2,7 @@
 
 1. Make a custom CSS in your project folder, e.g. css\style.css
 2. Include the CSS in your manifest.json
-```JSON
+```json
 "resources": {
     "css": [
         {
@@ -24,6 +24,10 @@
  :not(.sapUiIcon) {
      font-family: Candara,sap-icons !important;
 }
+```
+
+```xml
+<core:Item key="veryhigh" text="Sehr hoch &#xe04b;"/>
 ```
 
 ### Fullscreenmode 
