@@ -6,7 +6,7 @@
 "resources": {
     "css": [
         {
-        uri": "css/style.css"
+        "uri": "css/style.css"
         }
     ]
 }
