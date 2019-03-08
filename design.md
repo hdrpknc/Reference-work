@@ -12,14 +12,19 @@
 }
 ```
 3. Set the following property, this excludes all SAP-Standard icons and their special fonts
+```css
+ :not(.sapUiIcon) {
+     font-family: Candara !important;
+}
 ```
+
+### How to make SAPUI5 Icons available in Text
+
+```css
  :not(.sapUiIcon) {
      font-family: Candara,sap-icons !important;
 }
 ```
-
-### How to make SAPUI5 Icons available
-
 
 ### Fullscreenmode 
 #### with Index – File
