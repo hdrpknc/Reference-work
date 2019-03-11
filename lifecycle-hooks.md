@@ -19,3 +19,13 @@ Called when the view is destroyed; used to free resources and finalize activitie
 Called when the view has been rendered and, therefore, its HTML is part of the document; used to do post-rendering manipulations of the HTML. SAPUI5 controls get this hook after being rendered.
 #### onBeforeRendering:
 Invoked before the controller view is re-rendered and not before the first rendering; use onInit() for invoking the hook before the first rendering.
+### Inheritance
+When overriding an SAPUI5 lifecycle method (such as init, exit, onBeforeRendering, and onAfterRendering), you must make sure that the super class implementation is called, for example like this:
+
+```javascript
+MyClass.prototype.onAfterRendering = function() {
+  SuperClass.prototype.onAfterRendering.apply(this);
+
+  // do your additional stuff AFTER calling super class
+}
+```
