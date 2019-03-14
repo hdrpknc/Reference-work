@@ -26,6 +26,7 @@
 ## Web development
 1. My tools: Visual Studio Code / Sublime
 2. [Linting](./linting.md)
+3. [NPM](./npm.md)
 ## Windows
 1. hosts file ```C:\Windows\System32\drivers\etc```
 2. disable-web-security-chrome 
