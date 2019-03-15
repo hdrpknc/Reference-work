@@ -33,26 +33,6 @@ you probably just forgot to edit your hosts file. check your sap logon for the n
 * `/UI2/INVALIDATE_CLIENT_CACHES`
 * `/UI5/APP_INDEX_CALCULATE`
 
-## URL parameter
-
-* Deactivate component Preload ```&sap-ui-xx-componentPreload=off```
-* Debug Mode ```sap-ui-debug=true```
-
-`?sap-ui-debug=true&sap-ui-xx-componentPreload=off`
-
-### URL Parameters for the SAP Fiori Launchpad
-
-* To deactivate cache busting in your web browser. ```?sap-ushell-nocb=true``` before the `#` in lp      
-This is only needed for troubleshooting purposes    
-
-* To improve performance, the SAPUI5 cache buster tokens themselves are cached on the front-end server, with a validity of two hours. If you need to bypass this server-side cache, set this parameter to "true". ```sap-ushell-cb-nocache```
-
-`?sap-ushell-nocb=true&sap-ushell-cb-nocache=true`
-
-* force standard theme
-
-```flp?sap-theme=sap_belize```
-
 ## Support Assistent
 The Support Assistant enables developers to check whether their apps are built according to the SAPUI5 best practices and guidelines.
 > The minimum SAPUI5 version in which the Support Assistant is available is 1.44.17.
