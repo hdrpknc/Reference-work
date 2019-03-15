@@ -15,7 +15,5 @@ This is only needed for troubleshooting purposes
 
 `?sap-ushell-nocb=true&sap-ushell-cb-nocache=true`
 
-* force standard theme
-
-```flp?sap-theme=sap_belize```
+* force standard theme ```flp?sap-theme=sap_belize```
 
