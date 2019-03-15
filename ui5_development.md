@@ -16,6 +16,10 @@ You can refer to a specific version by using a versioned URL as in the following
 ```
 The specific version is here *1.42.6*
 
+### Variant for Bootstrapping for WEBIDE
+
+```src="../../resources/sap-ui-core.js"```
+
 ### Using Native HTML in XML Views
 ```xml
 <mvc:View controllerName="hdrpknc.controller.ViewMain" 
