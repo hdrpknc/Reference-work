@@ -27,7 +27,7 @@ you probably just forgot to edit your hosts file. check your sap logon for the n
 `http://<host>.<domain>:<port>/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=<client>&scope=CUST`
 `/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=100&sap-language=DE&scope=CONF`
 
-### Empty NWGW cache
+## Empty NWGW cache
 
 * `/UI2/INVALIDATE_GLOBAL_CACHES`
 * `/UI2/INVALIDATE_CLIENT_CACHES`
@@ -53,7 +53,7 @@ This is only needed for troubleshooting purposes
 
 ```flp?sap-theme=sap_belize```
 
-### Support Assistent
+## Support Assistent
 The Support Assistant enables developers to check whether their apps are built according to the SAPUI5 best practices and guidelines.
 > The minimum SAPUI5 version in which the Support Assistant is available is 1.44.17.
 
