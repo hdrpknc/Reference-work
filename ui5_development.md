@@ -1,3 +1,4 @@
+## Bootstrapping
 ### Variant for Bootstrapping from Content Delivery Network
 SAPUI5 can either be loaded locally with a relative path from a Web server  
 or externally from a Content Delivery Network (CDN).
