@@ -24,7 +24,7 @@ The specific version is here *1.42.6*
 
 ```./resources/sap-ui-core.js```
 
-### Using Native HTML in XML Views
+## Using Native HTML in XML Views
 ```xml
 <mvc:View controllerName="hdrpknc.controller.ViewMain" 
 	xmlns:html="http://www.w3.org/1999/xhtml"
