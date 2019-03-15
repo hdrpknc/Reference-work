@@ -1,4 +1,4 @@
-### Find installed SAPUI5 runtime version
+## Find installed SAPUI5 runtime version
 You have two options for that
 * find it out with the help of the client  
 Open with the key 'F12' the Developer Tools -> Console -> and type in: `sap.ui.version`
@@ -6,19 +6,19 @@ Open with the key 'F12' the Developer Tools -> Console -> and type in: `sap.ui.v
 In SAP ABAP Stack-> Open the ABAP Application Server URL -> 
 `http://[host]:[port]/sap/public/bc/ui5_ui5/`  
 in your browser
-#### How to find host and port
+### How to find host and port
 * host  
 Choose System - > status -> Navigate to Other Kernel information  
 & under system information tab you can find the host IP address.
 * port  
 Go to the Transaction `SMICM` -> Choose from the menu "GOTO -> Services".
-### Find Launchpad 
+## Find Launchpad 
 `/n/ui2/flp`    
 or    
 `http://<host>.<domain>:<port>/sap/bc/ui5_ui5/ui2/ushell/shells/abap/Fiorilaunchpad.html?sap-client=<client>`    
-#### What if your browser can't find the site?
+### What if your browser can't find the site?
 you probably just forgot to edit your hosts file. check your sap logon for the needed ip addresses 
-### Find Launchpad Designer
+## Find Launchpad Designer
 | ta | info    |
 |----------------|---------------------------------------------|
 | /UI2/FLPD_CONF | Fiori Launchpad Designer (cross-client)     |
