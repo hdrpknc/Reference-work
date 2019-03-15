@@ -29,7 +29,7 @@ you probably just forgot to edit your hosts file. check your sap logon for the n
 
 ## Find index.html
 
-http://hdrpknc:8016/sap/bc/ui5_ui5/sap/z_ticket_create/index.html
+http://<host>.<domain>:<port>/sap/bc/ui5_ui5/sap/z_ticket_create/index.html 
 
 ## Empty NWGW cache
 
