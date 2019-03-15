@@ -49,6 +49,10 @@ This is only needed for troubleshooting purposes
 
 `?sap-ushell-nocb=true&sap-ushell-cb-nocache=true`
 
+* force standard theme
+
+```flp?sap-theme=sap_belize```
+
 ### Support Assistent
 The Support Assistant enables developers to check whether their apps are built according to the SAPUI5 best practices and guidelines.
 > The minimum SAPUI5 version in which the Support Assistant is available is 1.44.17.
