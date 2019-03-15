@@ -13,7 +13,7 @@
 9. [UI5 manage project](./ui5manage.md)
 10. [Cloud Connector](./cc.md)
 11. [Fiori/UI5 design](./design.md)
-11. [Fiori/UI5 URL Parameters](./url.md)
+11. [Fiori/UI5 URL parameters](./url.md)
 
 ## ABAP
 1. [ABAP tips](./abap_tips.md)
