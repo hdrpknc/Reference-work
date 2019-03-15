@@ -20,6 +20,10 @@ The specific version is here *1.42.6*
 
 ```src="../../resources/sap-ui-core.js"```
 
+### Variant for Bootstrapping on premise
+
+```./resources/sap-ui-core.js```
+
 ### Using Native HTML in XML Views
 ```xml
 <mvc:View controllerName="hdrpknc.controller.ViewMain" 
