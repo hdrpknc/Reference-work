@@ -17,3 +17,10 @@ This is only needed for troubleshooting purposes
 
 * force standard theme ```flp?sap-theme=sap_belize```
 
+### SAPUI5 get URL parameters  
+`http://hdrpknc.de:8034/sap/bc/ui5_ui5/sap/zui5_karte/index.html?sap-client=200&sap-ui-language=DE&sap-ui-appcache=false&param1=amk`
+
+The parameter is here `param1=amk`
+
+`var sValue = jQuery.sap.getUriParameters().get("param1");`
+
