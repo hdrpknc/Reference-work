@@ -30,6 +30,7 @@ you probably just forgot to edit your hosts file. check your sap logon for the n
 ## Find index.html
 
 Find the URL with SICF     
+test service
 
 `http://<host>.<domain>:<port>/sap/bc/ui5_ui5/sap/<BSP-Application>/index.html`
 
