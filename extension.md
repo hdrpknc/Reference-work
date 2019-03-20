@@ -131,10 +131,10 @@ ENDCASE.
 
 #### Error: found in negative cache: 'sap/cus/crm/lib/reuse/library.js' from /sap/bc/ui5_ui5/ui2/ushell/resources/20171109155700/sap/cus/crm/lib/reuse/library.js: 404 - NOT FOUND sap.ushell.renderers.fiori2.Shell.controller
 
+Add this code to the extended app's Component.js, right after the first line:
+
 ```javascript
 (function () {
-
 	jQuery.sap.registerModulePath("sap.cus.crm.lib.reuse", "/sap/bc/ui5_ui5/sap/crm_lib_reuse/sap/cus/crm/lib/reuse");
-
 }());
 ```
