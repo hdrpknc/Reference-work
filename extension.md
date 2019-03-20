@@ -129,7 +129,7 @@ ENDCASE.
 
 ### Common errors
 
-#### Error: found in negative cache: 'sap/cus/crm/lib/reuse/library.js' from /sap/bc/ui5_ui5/ui2/ushell/resources/~20171109155700~/sap/cus/crm/lib/reuse/library.js: 404 - NOT FOUND sap.ushell.renderers.fiori2.Shell.controller
+#### Error: found in negative cache: 'sap/cus/crm/lib/reuse/library.js' from /sap/bc/ui5_ui5/ui2/ushell/resources/20171109155700/sap/cus/crm/lib/reuse/library.js: 404 - NOT FOUND sap.ushell.renderers.fiori2.Shell.controller
 
 ```javascript
 (function () {
