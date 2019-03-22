@@ -30,7 +30,7 @@
 <core:Item key="veryhigh" text="Sehr hoch &#xe04b;"/>
 ```
 
-### Fullscreenmode 
+### Fullscreenmode - old
 #### with Index – File
 
 ```html
@@ -51,5 +51,15 @@
 ```json
 "sap.ui": {
     "fullWidth": true,
+}
+```
+
+### Fullscreenmode - new
+#### with manifest.json
+```json
+"sap.ui5": {
+	"config": {
+		"fullWidth": true
+	}
 }
 ```
