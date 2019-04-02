@@ -21,6 +21,7 @@
 3. [CDS](./cds.md)
 4. [Consume SOAP](./consume_soap.md)
 5. [WebUI & Webdynpro](./webdynpro.md)
+6. [Notes](./notes.md)
 
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
