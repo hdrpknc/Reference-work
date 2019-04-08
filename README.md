@@ -14,7 +14,7 @@
 10. [Cloud Connector](./cc.md)
 11. [Fiori/UI5 design](./design.md)
 12. [URL parameters](./url.md)
-13. [WEB IDE](./webide.md)
+13. [Web IDE](./webide.md)
 
 ## ABAP
 1. [ABAP tips](./abap_tips.md)
