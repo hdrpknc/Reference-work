@@ -25,3 +25,6 @@
 		}
 ```
 
+#### manifest titel
+
+`"title": "{{appTitle}}",`
