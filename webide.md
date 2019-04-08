@@ -7,7 +7,7 @@
 
 #### manifest dataSources
 
-```JSON
+``` JSON
 		"resources": "resources.json",
 		"dataSources": {
 			"mainService": {
