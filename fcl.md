@@ -6,6 +6,16 @@ add to init
 	// set appContext model
 	this.setModel(new JSONModel(), "appContext");
 ```    
+
+OR change manifest to 
+```JSON
+	"appContext2": {
+		"type": "sap.ui.model.json.JSONModel",
+		"settings": {},
+		"preload": false
+	}
+```
+
 and add
 ```JS
 /**
