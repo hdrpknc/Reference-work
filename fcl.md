@@ -149,3 +149,33 @@ sap.ui.define([
 	});
 });
 ```
+7. add routing in manifest
+```JSON
+"routing": {
+	"config": {
+		"routerClass": "sap.f.routing.Router",
+		"viewType": "XML",
+		"async": true,
+		"viewPath": "a41s.support_tickets.view",
+		"controlAggregation": "beginColumnPages",
+		"controlId": "layout",
+		"clearControlAggregation": false
+	},
+	"routes": [
+		{
+			"name": "master",
+			"pattern": "",
+			"target": "master"
+		}
+	],
+	"targets": {
+		"master": {
+			"viewType": "XML",
+			"transition": "slide",
+			"clearControlAggregation": false,
+			"viewId": "master",
+			"viewName": "Master"
+		}
+	}
+}
+```
