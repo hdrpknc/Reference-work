@@ -16,7 +16,7 @@ OR add to manifest
 	}
 ```
 
-3. (optional) add to Component.js
+3. (optional) add `getContentDensityClass` to Component.js
 ```JS
 /**
  * This method can be called to determine whether the sapUiSizeCompact or sapUiSizeCozy
