@@ -1,5 +1,5 @@
 1. Create empty template project from webide
-2. Change Component.js    
+2. Create appContext model -> Change Component.js or Manifest.json    
 
 add to init
 ```JS
@@ -16,7 +16,7 @@ OR change manifest to
 	}
 ```
 
-and add
+3. optional add to Component.js
 ```JS
 /**
  * This method can be called to determine whether the sapUiSizeCompact or sapUiSizeCozy
@@ -40,7 +40,7 @@ getContentDensityClass : function() {
 	return this._sContentDensityClass;
 }
 ```
-2. Change App.view.xml
+4. Change App.view.xml
 from
 ```XML
 <mvc:View controllerName="a41s.support_tickets.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
@@ -77,7 +77,7 @@ to
 </mvc:View>
 
 ```
-3. change App.controller.js to 
+5. change App.controller.js to 
 ```JS
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
