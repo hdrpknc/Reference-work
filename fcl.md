@@ -1,5 +1,6 @@
 1. Create empty template project from webide
 2. Change App.view.xml
+from
 ```XML
 <mvc:View controllerName="a41s.support_tickets.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
 	<Shell id="shell">
@@ -13,8 +14,8 @@
 	</Shell>
 </mvc:View>
 ```
+to
 ```XML
-<mvc:View controllerName="a41s.support_tickets.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
 <mvc:View
 	controllerName="a41s.support_tickets.controller.App"
 	displayBlock="true"
@@ -33,5 +34,5 @@
 		</f:FlexibleColumnLayout>
 	</App>
 </mvc:View>
-</mvc:View>
+
 ```
