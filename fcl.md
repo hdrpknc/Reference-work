@@ -16,7 +16,7 @@ OR change manifest to
 	}
 ```
 
-3. optional add to Component.js
+3. (optional) add to Component.js
 ```JS
 /**
  * This method can be called to determine whether the sapUiSizeCompact or sapUiSizeCozy
