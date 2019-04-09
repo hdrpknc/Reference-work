@@ -15,7 +15,7 @@ OR add to manifest
 		"preload": false
 	}
 ```
-3. add MainService to Manifest
+3. add mainService to Manifest
 
 ```JSON
 	"models": {
