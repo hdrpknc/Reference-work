@@ -15,6 +15,7 @@
 11. [Fiori/UI5 design](./design.md)
 12. [URL parameters](./url.md)
 13. [Web IDE](./webide.md)
+14. [Flexible Column Layout](.fcl.md)
 
 ## ABAP
 1. [ABAP tips](./abap_tips.md)
