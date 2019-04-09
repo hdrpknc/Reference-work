@@ -36,3 +36,32 @@ to
 </mvc:View>
 
 ```
+3. change App.controller.js to 
+```JS
+sap.ui.define([
+	"sap/ui/core/mvc/Controller",
+	"sap/ui/model/json/JSONModel"
+], function (Controller, JSONModel) {
+	"use strict";
+
+	return Controller.extend("a41s.support_tickets.controller.App", {
+		onInit: function () {
+			var oViewModel = new JSONModel({
+				busy: false,
+				delay: 0,
+				layout: "OneColumn",
+				previousLayout: "",
+				actionButtonsInfo: {
+					midColumn: {
+						fullScreen: false
+					}
+				}
+			});
+			this.getView().setModel(oViewModel, "appView");
+
+			// apply content density mode to root view
+			//this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
+		}
+	});
+});
+```
