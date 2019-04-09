@@ -1,10 +1,11 @@
 1. Create empty template project from webide
 2. Change Component.js    
-add
+add to init
 ```JS
 	// set appContext model
 	this.setModel(new JSONModel(), "appContext");
 ```
+and add
 ```JS
 /**
  * This method can be called to determine whether the sapUiSizeCompact or sapUiSizeCozy
