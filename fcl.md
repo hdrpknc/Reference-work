@@ -132,7 +132,7 @@ sap.ui.define([
 					}
 				}
 			});
-			this.setModel(oViewModel, "appView");
+			this.getView().setModel(oViewModel, "appView");
 
 			fnSetAppNotBusy = function() {
 				oViewModel.setProperty("/busy", false);
