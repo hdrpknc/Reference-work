@@ -7,9 +7,9 @@ add to init
 	this.setModel(new JSONModel(), "appContext");
 ```    
 
-OR change manifest to 
+OR add to manifest 
 ```JSON
-	"appContext2": {
+	"appContext": {
 		"type": "sap.ui.model.json.JSONModel",
 		"settings": {},
 		"preload": false
