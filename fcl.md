@@ -1,4 +1,9 @@
 1. Create empty template project from webide
+2. Change Component.js
+```JS
+	// set appContext model
+	this.setModel(new JSONModel(), "appContext");
+```
 2. Change App.view.xml
 from
 ```XML
