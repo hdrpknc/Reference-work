@@ -46,7 +46,7 @@ OR add to manifest
 	},
 ```
 
-3. (optional) add `getContentDensityClass` to Component.js
+4. (optional) add `getContentDensityClass` to Component.js
 ```JS
 /**
  * This method can be called to determine whether the sapUiSizeCompact or sapUiSizeCozy
@@ -70,7 +70,7 @@ getContentDensityClass : function() {
 	return this._sContentDensityClass;
 }
 ```
-4. Change App.view.xml
+5. Change App.view.xml
 from
 ```XML
 <mvc:View controllerName="a41s.support_tickets.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
@@ -107,7 +107,7 @@ to
 </mvc:View>
 
 ```
-5. change App.controller.js to 
+6. change App.controller.js or leave init empty
 ```JS
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
