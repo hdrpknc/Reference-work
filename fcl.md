@@ -15,6 +15,22 @@ OR add to manifest
 		"preload": false
 	}
 ```
+3. add MainService to Manifest
+
+```JSON
+	"models": {
+		"i18n": {
+			"type": "sap.ui.model.resource.ResourceModel",
+			"settings": {
+				"bundleName": "a41s.support_tickets.i18n.i18n"
+			}
+		},
+		"": {
+			"dataSource": "mainService",
+			"preload": true
+		}
+	},
+```
 
 3. (optional) add `getContentDensityClass` to Component.js
 ```JS
