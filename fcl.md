@@ -18,6 +18,20 @@ OR add to manifest
 3. add mainService to Manifest
 
 ```JSON
+
+	"dataSources": {
+		"mainService": {
+			"uri": "/sap/opu/odata/sap/Z_TICKET_CUST_SRV/",
+			"type": "OData",
+			"settings": {
+				"odataVersion": "2.0",
+				"localUri": "localService/metadata.xml"
+			}
+		}
+	},
+	
+	...........
+
 	"models": {
 		"i18n": {
 			"type": "sap.ui.model.resource.ResourceModel",
