@@ -183,6 +183,14 @@ sap.ui.define([
 8. change master.controller.js
 
 ```JS
+
+	onInit: function () {
+		var oViewModel = this._createViewModel();
+		this.getView().setModel(oViewModel, "masterView");
+		this.getRouter().getRoute("master").attachPatternMatched(this._onMasterMatched, this);
+		this.getRouter().attachBypassed(this.onBypassed, this);
+	},
+
 	/**
 	 * After list data is available, this handler method updates the
 	 * master list counter
