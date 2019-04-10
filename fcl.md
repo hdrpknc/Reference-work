@@ -179,3 +179,38 @@ sap.ui.define([
 	}
 }
 ```
+
+8. change master.controller.js
+
+```JS
+	onUpdateFinished: function (oEvent) {
+		// update the master list object counter after new data is loaded
+		this._updateListItemCount(oEvent.getParameter("total"));
+	},
+
+	/**
+	 * Sets the item count on the master list header
+	 * @param {integer} iTotalItems the total number of items in the list
+	 * @private
+	 */
+	_updateListItemCount: function (iTotalItems) {
+		var sTitle;
+		// only update the counter if the length is final
+		if (this._oList.getBinding("items").isLengthFinal()) {
+			sTitle = this.getResourceBundle().getText("masterTitleCount", [iTotalItems]);
+			this.getModel("masterView").setProperty("/title", sTitle);
+		}
+	},
+
+	_createViewModel : function() {
+		return new JSONModel({
+			isFilterBarVisible: false,
+			filterBarLabel: "",
+			delay: 0,
+			title: this.getResourceBundle().getText("masterTitleCount", [0]),
+			noDataText: this.getResourceBundle().getText("masterListNoDataText"),
+			sortBy: "TicketId",
+			groupBy: "None"
+		});
+	},
+```
