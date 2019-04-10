@@ -183,6 +183,12 @@ sap.ui.define([
 8. change master.controller.js
 
 ```JS
+	/**
+	 * After list data is available, this handler method updates the
+	 * master list counter
+	 * @param {sap.ui.base.Event} oEvent the update finished event
+	 * @public
+	 */
 	onUpdateFinished: function (oEvent) {
 		// update the master list object counter after new data is loaded
 		this._updateListItemCount(oEvent.getParameter("total"));
@@ -197,18 +203,18 @@ sap.ui.define([
 		var sTitle;
 		// only update the counter if the length is final
 		if (this._oList.getBinding("items").isLengthFinal()) {
-			sTitle = this.getResourceBundle().getText("masterTitleCount", [iTotalItems]);
-			this.getModel("masterView").setProperty("/title", sTitle);
+			sTitle = this.getOwnerComponent().getModel("i18n").getResourceBundle().getText("masterTitleCount", [iTotalItems]);
+			this.getView().getModel("masterView").setProperty("/title", sTitle);
 		}
 	},
 
-	_createViewModel : function() {
+	_createViewModel: function () {
 		return new JSONModel({
 			isFilterBarVisible: false,
 			filterBarLabel: "",
 			delay: 0,
-			title: this.getResourceBundle().getText("masterTitleCount", [0]),
-			noDataText: this.getResourceBundle().getText("masterListNoDataText"),
+			title: this.getOwnerComponent().getModel("i18n").getResourceBundle().getText("masterTitleCount", [0]),
+			noDataText: this.getOwnerComponent().getModel("i18n").getResourceBundle().getText("masterListNoDataText"),
 			sortBy: "TicketId",
 			groupBy: "None"
 		});
