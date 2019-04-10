@@ -219,4 +219,18 @@ sap.ui.define([
 			groupBy: "None"
 		});
 	},
+	
+	_onMasterMatched: function () {
+		//Set the layout property of the FCL control to 'OneColumn'
+		//this.getModel("appView").setProperty("/layout", "OneColumn");
+	},
+
+	/**
+	 * Event handler for the bypassed event, which is fired when no routing pattern matched.
+	 * If there was an object selected in the master list, that selection is removed.
+	 * @public
+	 */
+	onBypassed : function () {
+		//this._oList.removeSelections(true);
+	}
 ```
