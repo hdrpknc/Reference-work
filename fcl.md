@@ -187,8 +187,8 @@ sap.ui.define([
 	onInit: function () {
 		var oViewModel = this._createViewModel();
 		this.getView().setModel(oViewModel, "masterView");
-		this.getRouter().getRoute("master").attachPatternMatched(this._onMasterMatched, this);
-		this.getRouter().attachBypassed(this.onBypassed, this);
+		this.getOwnerComponent().getRouter().getRoute("master").attachPatternMatched(this._onMasterMatched, this);
+		this.getOwnerComponent().getRouter().attachBypassed(this.onBypassed, this);
 	},
 
 	/**
