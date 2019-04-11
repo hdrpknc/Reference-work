@@ -252,7 +252,7 @@ sap.ui.define([
 			"target": "master"
 		},
 		{
-			"pattern": "ticket_s/{TicketId}",
+			"pattern": "ticket_s/{ticketId}",
 			"name": "detail",
 			"target": [
 				"master",
