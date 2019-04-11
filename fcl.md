@@ -242,3 +242,37 @@ sap.ui.define([
 		//this._oList.removeSelections(true);
 	}
 ```
+9. add detail to manifest
+
+```JSON
+	"routes": [
+		{
+			"name": "master",
+			"pattern": "",
+			"target": "master"
+		},
+		{
+			"pattern": "ticket_s/{TicketId}",
+			"name": "detail",
+			"target": [
+				"master",
+				"detail"
+			]
+		}
+	],
+	"targets": {
+		"master": {
+			"viewType": "XML",
+			"transition": "slide",
+			"clearControlAggregation": false,
+			"viewId": "master",
+			"viewName": "Master"
+		},
+		"detail": {
+			"viewName": "Detail",
+			"viewId": "detail",
+			"viewLevel": 1,
+			"controlAggregation": "midColumnPages"
+		}
+	}
+```
