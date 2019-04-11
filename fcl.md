@@ -305,7 +305,7 @@ onSelectionChange : function (oEvent) {
 _showDetail : function (oItem) {
 	var bReplace = !Device.system.phone;
 	// set the layout property of FCL control to show two columns
-	this.getOwnerComponent().getModel("appView").setProperty("/layout", "TwoColumnsMidExpanded");
+	this.getView().getModel("appView").setProperty("/layout", "TwoColumnsMidExpanded");
 	this.getOwnerComponent().getRouter().navTo("detail", {
 		ticketId : oItem.getBindingContext().getProperty("TicketId")
 	}, bReplace);
