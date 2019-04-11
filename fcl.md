@@ -415,20 +415,6 @@ sap.ui.define([
 				//this.getOwnerComponent().oListSelector.clearMasterListSelection();
 				return;
 			}
-
-			var sPath = oElementBinding.getPath(),
-				oResourceBundle = this.getOwnerComponent().getModel("i18n").getResourceBundle(),
-				oObject = oView.getModel().getObject(sPath),
-				sObjectId = oObject.TicketId,
-				sObjectName = oObject.Description,
-				oViewModel = this.getView().getModel("detailView");
-
-			this.getOwnerComponent().oListSelector.selectAListItem(sPath);
-
-			oViewModel.setProperty("/shareSendEmailSubject",
-				oResourceBundle.getText("shareSendEmailObjectSubject", [sObjectId]));
-			oViewModel.setProperty("/shareSendEmailMessage",
-				oResourceBundle.getText("shareSendEmailObjectMessage", [sObjectName, sObjectId, location.href]));
 		}
 
 	});
