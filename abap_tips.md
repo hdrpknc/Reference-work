@@ -38,6 +38,16 @@ TRY.
     WRITE:/  msg.
 ENDTRY.
 ```
+### handle type ref to
+
+```ABAP
+    FIELD-SYMBOLS: <partner>       TYPE bu_partner,
+                   <contactperson> TYPE bu_partner.
+    ASSIGN er_entity->* TO FIELD-SYMBOL(<er_entity_structure>).
+    ASSIGN: ('<er_entity_structure>-ACCOUNT_ID') TO <partner>,
+            ('<er_entity_structure>-CONTACT_ID') TO <contactperson>.
+```
+
 ### link from abap with sso
 
 ```ABAP
