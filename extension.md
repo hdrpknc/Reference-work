@@ -127,6 +127,17 @@ ENDCASE.
 - Select the „Append Structure...“ button. 
 - name the Append -> simple name rule: if the original structure is named `GBAPPS_PO_HEADER_DETAILS` call it `ZPO_HEADER_DETAILS`
 
+### fill er_entity and er_entityset
+
+```ABAP
+* Fill ER_ENTITYSET
+  copy_data_to_ref(
+    EXPORTING
+         is_data = lt_tb911
+    CHANGING
+         cr_data = er_entityset ).
+```
+
 ### Common errors
 
 #### `Error: found in negative cache`: 'sap/cus/crm/lib/reuse/library.js' from /sap/bc/ui5_ui5/ui2/ushell/resources/20171109155700/sap/cus/crm/lib/reuse/library.js: 404 - NOT FOUND sap.ushell.renderers.fiori2.Shell.controller
