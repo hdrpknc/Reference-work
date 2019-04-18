@@ -63,3 +63,23 @@
     ENDTRY.
   ENDMETHOD.
 ```
+#### CUSTOMDEPARTMENT_GET_ENTITYSET
+
+```ABAP
+  method CUSTOMDEPARTMENT_GET_ENTITYSET.
+
+    DATA lt_tb911 TYPE TABLE OF tb911.
+
+    SELECT * from TB911 INTO TABLE lt_tb911
+      WHERE spras = sy-langu.
+
+
+* Fill ER_ENTITYSET
+  copy_data_to_ref(
+    EXPORTING
+         is_data = lt_tb911
+    CHANGING
+         cr_data = er_entityset ).
+
+  endmethod.
+```
