@@ -5,7 +5,7 @@
 * Debug Mode ```sap-ui-debug=true```
 
 `?sap-ui-debug=true&sap-ui-xx-componentPreload=off`    
-`?sap-ui-xx-componentPreload=off`
+`&sap-ui-xx-componentPreload=off&sap-ushell-nocb=true&sap-ushell-cb-nocache=true`
 
 ### URL Parameters for the SAP Fiori Launchpad
 
