@@ -52,3 +52,7 @@ To run the Support Assistant with URL parameter:
 
 To run from the Technical Information Dialog:    
 > CTRL + SHIFT + ALT + P
+
+## important roles
+
+SAP_UI_FLEX_KEY_USER
