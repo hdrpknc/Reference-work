@@ -25,6 +25,7 @@
 5. [WebUI & Webdynpro](./webdynpro.md)
 6. [Notes](./notes.md)
 7. [SEGW Sample Coding](./segw.md)
+8. [CORS](./cors.md)
 
 ## Gist
 [coding snippets](https://gist.github.com/hdrpknc)
