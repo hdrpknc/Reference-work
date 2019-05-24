@@ -10,6 +10,8 @@
 #### to enhance local environment with features e.g. grunt
 > _you need the following step for 'npm install' otherwise npm doesn't know where sap is_
 - [ ] create .npmrc file in you workplace folder with the following content: ```@sap:registry=https://npm.sap.com/```
+> _add express to dev dependencies_
+- [ ]  `npm install express -D`
 > _you need this step for the dependencies e.g. grunt_
 - [ ] ```npm install```
 #### local node.js server
