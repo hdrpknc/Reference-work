@@ -63,3 +63,9 @@
 	}
 }
 ```
+### if width 100% ist not working
+```javascript
+	<layoutData>
+	    <FlexItemData growFactor="1" />
+	</layoutData>
+```
