@@ -63,7 +63,7 @@
 	}
 }
 ```
-### if width 100% ist not working
+### if "width=100%" ist not working
 ```javascript
     <Input id="TemplateName" value="{createTicketView>/TemplateDescription}" width="100%">
 	<layoutData>
