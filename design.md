@@ -65,7 +65,9 @@
 ```
 ### if width 100% ist not working
 ```javascript
+    <Input id="TemplateName" value="{createTicketView>/TemplateDescription}" width="100%">
 	<layoutData>
 	    <FlexItemData growFactor="1" />
 	</layoutData>
+    </Input>
 ```
