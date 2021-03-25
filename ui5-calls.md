@@ -28,8 +28,9 @@ doCall: function(httpMethod, url, request, token) {
 		}
 
 ```
-> important: direct data consumption like _read_ is not possible anymore with OData v4
+
 ### oModel.read
+> important: direct data consumption like _read_ is not possible anymore with OData v4
 ```javascript
 var oFilter = new sap.ui.model.Filter("Tournummer", sap.ui.model.FilterOperator.EQ, sRoute);
 var aFilters = [];
@@ -51,4 +52,18 @@ mParameters.error = function(oError) {
 var oModel = new sap.ui.model.odata.ODataModel(this.getServiceURL());
 oModel.read("/TourSet", mParameters);
 
+```
+
+### jQ
+```javascript
+			var bpavisModel = this.getOwnerComponent().getModel("bpavisModel");
+			$.get({
+				url: bpavisModel.sServiceUrl + "/Ressorts",
+				success: function(data) {
+					debugger;
+				},
+				error: function(error) {
+					console.error(error);
+				}
+			});
 ```
