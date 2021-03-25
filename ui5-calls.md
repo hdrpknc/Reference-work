@@ -28,6 +28,7 @@ doCall: function(httpMethod, url, request, token) {
 		}
 
 ```
+> important: direct data comsumption like read is not possible anymore with v4
 ### oModel.read
 ```javascript
 var oFilter = new sap.ui.model.Filter("Tournummer", sap.ui.model.FilterOperator.EQ, sRoute);
