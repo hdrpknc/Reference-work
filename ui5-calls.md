@@ -28,7 +28,7 @@ doCall: function(httpMethod, url, request, token) {
 		}
 
 ```
-> important: direct data consumption like _read_ is not possible anymore with v4
+> important: direct data consumption like _read_ is not possible anymore with OData v4
 ### oModel.read
 ```javascript
 var oFilter = new sap.ui.model.Filter("Tournummer", sap.ui.model.FilterOperator.EQ, sRoute);
