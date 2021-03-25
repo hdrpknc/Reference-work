@@ -54,7 +54,7 @@ oModel.read("/TourSet", mParameters);
 
 ```
 
-### jQ
+### jQuery
 ```javascript
 			var bpavisModel = this.getOwnerComponent().getModel("bpavisModel");
 			$.get({
