@@ -35,4 +35,6 @@ https://pm2.keymetrics.io/
 
 `pm2 start server.js`
 
+`pm2 status`
+
 `pm2 startup`
