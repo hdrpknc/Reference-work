@@ -30,7 +30,7 @@ https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-20-04-de
 
-`sudo nano /etc/nginx/sites-available/example.com`
+`sudo nano /etc/nginx/sites-available/default`
 
 ## pm2
 ADVANCED, PRODUCTION PROCESS MANAGER FOR NODE.JS: 
