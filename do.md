@@ -33,4 +33,6 @@ ADVANCED, PRODUCTION PROCESS MANAGER FOR NODE.JS:
 
 https://pm2.keymetrics.io/
 
+`pm2 start server.js`
+
 `pm2 startup`
