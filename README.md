@@ -50,3 +50,5 @@
 | 22.08.2018    | 10:30    | 14:00  |
 
  https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial  
+ 
+ https://wiki.ubuntuusers.de/youtube-dl/
