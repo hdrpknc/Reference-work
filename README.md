@@ -41,9 +41,11 @@
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session2" --disable-web-security --allow-running-insecure-content
 ```
 ###Postgress 
+
 postgresql-x64-16
 
 Start: NET START postgresql-x64-9.2
+
 Stop: net stop postgresql-x64-9.3
 
 ### Linux Mint
