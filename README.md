@@ -40,13 +40,17 @@
 ```
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session2" --disable-web-security --allow-running-insecure-content
 ```
-###Postgress 
+##Postgress 
 
 postgresql-x64-16
 
 Start: NET START postgresql-x64-9.2
 
 Stop: net stop postgresql-x64-9.3
+
+## GO
+
+https://go.dev/wiki/SQLDrivers 
 
 ### Linux Mint
 ```
