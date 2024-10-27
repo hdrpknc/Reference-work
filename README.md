@@ -68,3 +68,8 @@ google-chrome --disable-web-security --user-data-dir="/tmp/chrome_tmp"
  https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial  
  
  https://wiki.ubuntuusers.de/youtube-dl/
+
+
+ ## How to set up own app hosting
+ 1. nix os
+ 2. https://www.youtube.com/watch?v=jFrGhodqC08 
