@@ -78,6 +78,6 @@ google-chrome --disable-web-security --user-data-dir="/tmp/chrome_tmp"
  5. enable firewall
  6. allow connections only 80 (http), 443(https), 22(ssh)
  7. create ssh keys which will be added to github account
- 8. create services directory/folder to store your repositories/clone your projects from github
- 9. your project contains a docker file 
+ 8. create services directory/folder to store your repositories and clone your project from github
+ 9. your project contains a docker file which you git pull from github  
  10. https://www.youtube.com/watch?v=jFrGhodqC08 
