@@ -71,7 +71,6 @@ google-chrome --disable-web-security --user-data-dir="/tmp/chrome_tmp"
 
 
  ## How to set up own app hosting
- First Part
  1. install any linux distro on maschine
  2. connect to local network
  3. enable ssh
@@ -84,7 +83,6 @@ google-chrome --disable-web-security --user-data-dir="/tmp/chrome_tmp"
  11. the docker file contains two stages. first stage is building and second stage is running. with this you only have one docker image. 
  12. then you build your docker image with 'docker build'
  13. then you run it via 'docker run'. when opening port you can test you website/app/service in your local network 
-Second Part
  14. for having it avaiable globally you need a reverse proxy. caddy is simpler then nginx. so use caddy.
  15. you need a docker container for caddy
  16. 
