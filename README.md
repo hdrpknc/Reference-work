@@ -87,4 +87,7 @@ google-chrome --disable-web-security --user-data-dir="/tmp/chrome_tmp"
  15. you need a docker container for caddy
  16. 
  17. 
- 18. https://www.youtube.com/watch?v=jFrGhodqC08 
+ 18. https://www.youtube.com/watch?v=jFrGhodqC08
+
+how to setup NixOS
+nano /etc/nixos/configuration.nix 
