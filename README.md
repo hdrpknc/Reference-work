@@ -71,13 +71,22 @@ google-chrome --disable-web-security --user-data-dir="/tmp/chrome_tmp"
 
 
  ## How to set up own app hosting
+ First Part
  1. install any linux distro on maschine
  2. connect to local network
  3. enable ssh
- 4. install git, docker (docker-compose), tmux, vim
+ 4. install git, docker (docker-compose), tmux, vim, cron
  5. enable firewall
- 6. allow connections only 80 (http), 443(https), 22(ssh)
- 7. create ssh keys which will be added to github account
- 8. create services directory/folder to store your repositories and clone your project from github
- 9. your project contains a docker file which you git pull from github  
- 10. https://www.youtube.com/watch?v=jFrGhodqC08 
+ 6. allow connections only 80 (http), 443(https), 22(ssh) 
+ 8. create ssh keys which will be added to github account
+ 9. create services directory/folder to store your repositories and clone your project from github
+ 10. your project contains a docker file which you git pull from github
+ 11. the docker file contains two stages. first stage is building and second stage is running. with this you only have one docker image. 
+ 12. then you build your docker image with 'docker build'
+ 13. then you run it via 'docker run'. when opening port you can test you website/app/service in your local network 
+Second Part
+ 14. for having it avaiable globally you need a reverse proxy. caddy is simpler then nginx. so use caddy.
+ 15. you need a docker container for caddy
+ 16. 
+ 17. 
+ 18. https://www.youtube.com/watch?v=jFrGhodqC08 
