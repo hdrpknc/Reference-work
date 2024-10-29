@@ -51,6 +51,10 @@ Stop: net stop postgresql-x64-9.3
 on linux: 
 
 check: sudo systemctl status postgresql
+
+sudo systemctl stop postgresql
+
+sudo systemctl start postgresql.service
 ## GO
 
 https://go.dev/wiki/SQLDrivers 
