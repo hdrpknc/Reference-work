@@ -48,6 +48,9 @@ Start: NET START postgresql-x64-9.2
 
 Stop: net stop postgresql-x64-9.3
 
+on linux: 
+
+check: sudo systemctl status postgresql
 ## GO
 
 https://go.dev/wiki/SQLDrivers 
